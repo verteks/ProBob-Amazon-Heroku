@@ -1,4 +1,4 @@
-name := "bigBob"
+name := "bigbob"
 
 version := "1.0-SNAPSHOT"
 
