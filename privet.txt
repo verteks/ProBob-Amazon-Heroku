@@ -1,0 +1,73 @@
+2017-03-24T03:28:47.410500+00:00 app[api]: Initial release by user sendmydog@mail.ru
+2017-03-24T03:28:47.410500+00:00 app[api]: Release v1 created by user sendmydog@mail.ru
+2017-03-24T03:28:47.527698+00:00 app[api]: Enable Logplex by user sendmydog@mail.ru
+2017-03-24T03:28:47.527698+00:00 app[api]: Release v2 created by user sendmydog@mail.ru
+2017-03-24T03:28:48.004856+00:00 app[api]: Release v2 created by user sendmydog@mail.ru
+2017-03-24T03:34:57.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T03:34:57.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T03:41:56.962583+00:00 app[api]: Set AWS_ACCESS_KEY, AWS_SECRET_KEY config vars by user sendmydog@mail.ru
+2017-03-24T03:41:56.962583+00:00 app[api]: Release v3 created by user sendmydog@mail.ru
+2017-03-24T03:41:57.114248+00:00 app[api]: Release v3 created by user sendmydog@mail.ru
+2017-03-24T03:42:05.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T03:42:05.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T03:53:05.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T03:53:05.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T03:56:42.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T03:56:42.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T03:59:34.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T03:59:34.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T04:03:10.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T04:03:10.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T08:30:40.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T08:30:40.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T08:34:21.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T08:34:21.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T08:36:39.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T08:36:39.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T08:40:20.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T08:40:20.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T08:41:45.792702+00:00 app[api]: Set SBT_OPTS config vars by user sendmydog@mail.ru
+2017-03-24T08:41:45.792702+00:00 app[api]: Release v4 created by user sendmydog@mail.ru
+2017-03-24T08:41:45.951213+00:00 app[api]: Release v4 created by user sendmydog@mail.ru
+2017-03-24T08:43:24.360317+00:00 app[api]: Release v5 created by user sendmydog@mail.ru
+2017-03-24T08:43:24.360317+00:00 app[api]: Set SBT_CLEAN config vars by user sendmydog@mail.ru
+2017-03-24T08:43:24.850840+00:00 app[api]: Release v5 created by user sendmydog@mail.ru
+2017-03-24T08:43:45.810394+00:00 app[api]: Remove SBT_CLEAN config vars by user sendmydog@mail.ru
+2017-03-24T08:43:45.810394+00:00 app[api]: Release v6 created by user sendmydog@mail.ru
+2017-03-24T08:43:45.973513+00:00 app[api]: Release v6 created by user sendmydog@mail.ru
+2017-03-24T08:44:12.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T08:44:12.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T09:01:05.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T09:01:05.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-24T09:16:55.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-24T09:16:55.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-30T15:15:55.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-30T15:15:55.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-30T15:21:16.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-30T15:21:16.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-31T02:26:06.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-31T02:26:06.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-31T02:30:41.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-31T02:30:41.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-31T02:35:03.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-31T02:35:03.000000+00:00 app[api]: Build failed -- check your build logs
+2017-03-31T02:39:42.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-31T02:41:16.118836+00:00 app[api]: Release v7 created by user sendmydog@mail.ru
+2017-03-31T02:41:16.118836+00:00 app[api]: Attach DATABASE (@ref:postgresql-reticulated-79101) by user sendmydog@mail.ru
+2017-03-31T02:41:16.956487+00:00 app[api]: Scaled to web@1:Free by user sendmydog@mail.ru
+2017-03-31T02:41:16.936152+00:00 app[api]: Release v8 created by user sendmydog@mail.ru
+2017-03-31T02:41:16.936152+00:00 app[api]: Deploy 64e7792 by user sendmydog@mail.ru
+2017-03-31T02:41:17.098610+00:00 app[api]: Release v8 created by user sendmydog@mail.ru
+2017-03-31T02:41:17.272119+00:00 app[api]: Release v7 created by user sendmydog@mail.ru
+2017-03-31T02:39:42.000000+00:00 app[api]: Build succeeded
+2017-03-31T02:41:21.386273+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=7593 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
+2017-03-31T02:41:23.014658+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-31T02:41:23.015751+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-31T02:41:23.004827+00:00 heroku[web.1]: Process exited with status 127
+2017-03-31T02:41:22.946976+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2017-03-31T02:41:22.947136+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
+2017-03-31T02:41:27.068744+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=3465 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
+2017-03-31T02:41:28.920480+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-31T02:41:28.906105+00:00 heroku[web.1]: Process exited with status 127
+2017-03-31T02:41:28.828443+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2017-03-31T02:41:28.828609+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
