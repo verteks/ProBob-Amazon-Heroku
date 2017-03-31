@@ -1,86 +1,3 @@
-2017-03-31T02:56:20.960519+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=f202fc69-18bb-4d7b-b522-54ab9d4cc1bd fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T02:56:24.936145+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=76f48ee6-035f-41b5-9d58-4a9b77c42c44 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T02:56:24.921519+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=ae5953d0-98ea-46e2-86a8-f927c104ddda fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T02:56:25.098231+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=a018b9ee-ab95-4f7a-b6a0-c3b6b129eba8 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T02:57:56.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
-2017-03-31T02:58:41.306654+00:00 app[api]: Deploy 37fdeac by user sendmydog@mail.ru
-2017-03-31T02:58:41.306654+00:00 app[api]: Release v10 created by user sendmydog@mail.ru
-2017-03-31T02:58:41.470064+00:00 app[api]: Release v10 created by user sendmydog@mail.ru
-2017-03-31T02:57:56.000000+00:00 app[api]: Build succeeded
-2017-03-31T02:58:41.731485+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T02:58:45.612297+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=3334 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T02:58:47.266587+00:00 heroku[web.1]: Process exited with status 127
-2017-03-31T02:58:47.275162+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T02:58:47.216021+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T02:58:47.216188+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
-2017-03-31T02:59:18.518990+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=03a8704a-2552-4761-b2fe-a036078f393b fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T02:59:18.684132+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=d8fae214-1fd0-410d-a4f2-bcaa475f59a7 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:04:43.182977+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=97e61301-5928-4bb2-8882-4a1bdf317456 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:04:43.348973+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=cb0cc415-6204-45b7-83b4-b543d2dd42d5 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:05:17.848464+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:05:21.849360+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=40584 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T03:05:23.190434+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:05:23.190615+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
-2017-03-31T03:05:23.236273+00:00 heroku[web.1]: Process exited with status 127
-2017-03-31T03:05:23.285217+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:06:23.185968+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=b55388a6-a735-4c0e-bea9-e34bd252ac75 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:06:23.362697+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=f42e7ec4-1425-4c4f-8218-cc1a8e739ab9 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:09:11.844071+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=ac1183cb-7633-48b6-9724-cf9b2084a80e fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:09:12.003064+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=8db5d1d3-11e8-466a-8d6b-d200f3d2c95b fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:13:13.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
-2017-03-31T03:14:18.834904+00:00 app[api]: Release v11 created by user sendmydog@mail.ru
-2017-03-31T03:14:18.834904+00:00 app[api]: Deploy 0d926c7 by user sendmydog@mail.ru
-2017-03-31T03:14:19.004061+00:00 app[api]: Release v11 created by user sendmydog@mail.ru
-2017-03-31T03:13:13.000000+00:00 app[api]: Build succeeded
-2017-03-31T03:14:19.293861+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:14:24.383131+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=35860 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T03:14:26.088263+00:00 heroku[web.1]: Process exited with status 127
-2017-03-31T03:14:26.026004+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:14:26.026170+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
-2017-03-31T03:14:26.079875+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:15:54.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
-2017-03-31T03:16:44.721167+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:16:44.230927+00:00 app[api]: Deploy ae465c8 by user sendmydog@mail.ru
-2017-03-31T03:16:44.230927+00:00 app[api]: Release v12 created by user sendmydog@mail.ru
-2017-03-31T03:16:44.451476+00:00 app[api]: Release v12 created by user sendmydog@mail.ru
-2017-03-31T03:15:54.000000+00:00 app[api]: Build succeeded
-2017-03-31T03:16:49.822842+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=52967 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T03:16:51.721593+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:16:51.722610+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:16:51.681976+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:16:51.682155+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
-2017-03-31T03:16:51.715548+00:00 heroku[web.1]: Process exited with status 127
-2017-03-31T03:16:57.863282+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigBob -Dhttp.port=57624 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T03:16:59.993571+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:16:59.906397+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:16:59.906546+00:00 app[web.1]: bash: target/universal/stage/bin/bigBob: No such file or directory
-2017-03-31T03:16:59.982388+00:00 heroku[web.1]: Process exited with status 127
-2017-03-31T03:19:10.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
-2017-03-31T03:20:05.334615+00:00 app[api]: Release v13 created by user sendmydog@mail.ru
-2017-03-31T03:20:05.334615+00:00 app[api]: Deploy fd976d4 by user sendmydog@mail.ru
-2017-03-31T03:20:05.472747+00:00 app[api]: Release v13 created by user sendmydog@mail.ru
-2017-03-31T03:19:10.000000+00:00 app[api]: Build succeeded
-2017-03-31T03:20:05.768726+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:20:11.461259+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=54140 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
-2017-03-31T03:20:12.749167+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:20:12.837968+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
-2017-03-31T03:20:13.124203+00:00 app[web.1]: Play server process ID is 4
-2017-03-31T03:20:14.169656+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:h2:mem:play
-2017-03-31T03:20:16.670693+00:00 heroku[web.1]: Process exited with status 255
-2017-03-31T03:20:16.673949+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:20:16.570081+00:00 app[web.1]: Oops, cannot start the server.
-2017-03-31T03:20:16.570757+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1588)
-2017-03-31T03:20:16.572265+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1258)
-2017-03-31T03:20:16.572267+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1030)
-2017-03-31T03:20:16.570546+00:00 app[web.1]: com.amazonaws.services.s3.model.AmazonS3Exception: The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'ap-southeast-1' (Service: Amazon S3; Status Code: 400; Error Code: AuthorizationHeaderMalformed; Request ID: CDA0C82B80F1676F), S3 Extended Request ID: YT45L4F6tyT1IwWCu36Ct4iU/mfK1l1inUyaOaygXzkpSfy9q06n5ZBIwkY+xx20xlZe3bWMTw0=
-2017-03-31T03:20:16.572268+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:742)
-2017-03-31T03:20:16.572268+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:716)
-2017-03-31T03:20:16.572269+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
-2017-03-31T03:20:16.572269+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
-2017-03-31T03:20:16.572270+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
-2017-03-31T03:20:16.572270+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
-2017-03-31T03:20:16.572271+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
-2017-03-31T03:20:16.572271+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
 2017-03-31T03:20:16.572272+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
 2017-03-31T03:20:16.572272+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
 2017-03-31T03:20:16.572273+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
@@ -99,3 +16,86 @@
 2017-03-31T03:20:16.572278+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
 2017-03-31T03:20:16.572279+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
 2017-03-31T03:20:16.572278+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
+2017-03-31T03:27:48.177975+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-31T03:27:53.195815+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=55268 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver`
+2017-03-31T03:27:54.969264+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2017-03-31T03:27:55.097738+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
+2017-03-31T03:27:55.452722+00:00 app[web.1]: Play server process ID is 4
+2017-03-31T03:27:57.067686+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:h2:mem:play
+2017-03-31T03:27:59.922181+00:00 heroku[web.1]: Process exited with status 255
+2017-03-31T03:27:59.934803+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-31T03:27:59.797194+00:00 app[web.1]: Oops, cannot start the server.
+2017-03-31T03:27:59.799348+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:742)
+2017-03-31T03:27:59.797947+00:00 app[web.1]: com.amazonaws.services.s3.model.AmazonS3Exception: The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'ap-southeast-1' (Service: Amazon S3; Status Code: 400; Error Code: AuthorizationHeaderMalformed; Request ID: 5D4C6632C8DB682E), S3 Extended Request ID: ZVqFtQ+YtqgINNbaswY5rBw37EagNR4lURBjehXqdojcRok4OrBfq83akvcXKcsah5ZkT9rIxP8=
+2017-03-31T03:27:59.798364+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1588)
+2017-03-31T03:27:59.799192+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1258)
+2017-03-31T03:27:59.799424+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:716)
+2017-03-31T03:27:59.799272+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1030)
+2017-03-31T03:27:59.799590+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
+2017-03-31T03:27:59.799498+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
+2017-03-31T03:27:59.799672+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
+2017-03-31T03:27:59.799733+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
+2017-03-31T03:27:59.800052+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
+2017-03-31T03:27:59.799794+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
+2017-03-31T03:27:59.799860+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
+2017-03-31T03:27:59.799924+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
+2017-03-31T03:27:59.800113+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+2017-03-31T03:27:59.799990+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
+2017-03-31T03:27:59.800231+00:00 app[web.1]: 	at scala.collection.immutable.List.foreach(List.scala:318)
+2017-03-31T03:27:59.800172+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+2017-03-31T03:27:59.800976+00:00 app[web.1]: 	at play.core.server.NettyServer$.createServer(NettyServer.scala:280)
+2017-03-31T03:27:59.801050+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:316)
+2017-03-31T03:27:59.800377+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+2017-03-31T03:27:59.800305+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
+2017-03-31T03:27:59.800449+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+2017-03-31T03:27:59.802401+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
+2017-03-31T03:27:59.800756+00:00 app[web.1]: 	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
+2017-03-31T03:27:59.800830+00:00 app[web.1]: 	at play.api.Play$.start(Play.scala:87)
+2017-03-31T03:27:59.800903+00:00 app[web.1]: 	at play.core.StaticApplication.<init>(ApplicationProvider.scala:52)
+2017-03-31T03:27:59.801123+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:311)
+2017-03-31T03:27:59.802495+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
+2017-03-31T03:27:59.802945+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
+2017-03-31T03:28:57.000000+00:00 app[api]: Build started by user sendmydog@mail.ru
+2017-03-31T03:29:46.220922+00:00 app[api]: Release v14 created by user sendmydog@mail.ru
+2017-03-31T03:29:46.220922+00:00 app[api]: Deploy 78be816 by user sendmydog@mail.ru
+2017-03-31T03:29:46.363913+00:00 app[api]: Release v14 created by user sendmydog@mail.ru
+2017-03-31T03:28:57.000000+00:00 app[api]: Build succeeded
+2017-03-31T03:29:46.650640+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-31T03:29:51.874320+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=19564 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
+2017-03-31T03:29:53.426025+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
+2017-03-31T03:29:53.334535+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2017-03-31T03:29:53.811439+00:00 app[web.1]: Play server process ID is 4
+2017-03-31T03:29:55.269804+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:postgresql://ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl
+2017-03-31T03:29:57.612423+00:00 heroku[web.1]: Process exited with status 255
+2017-03-31T03:29:57.626454+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-31T03:29:57.392420+00:00 app[web.1]: com.amazonaws.services.s3.model.AmazonS3Exception: The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'ap-southeast-1' (Service: Amazon S3; Status Code: 400; Error Code: AuthorizationHeaderMalformed; Request ID: 2EEDAD1F277D81E7), S3 Extended Request ID: JJGM4ylEQzYKS3QOuRVr95WBA4PHAaO6voqzm0YgxTf5rzfhREuPDV8/+d9XGJDsIiBXkS/X/j4=
+2017-03-31T03:29:57.392880+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1258)
+2017-03-31T03:29:57.392921+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1030)
+2017-03-31T03:29:57.392977+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:742)
+2017-03-31T03:29:57.391748+00:00 app[web.1]: Oops, cannot start the server.
+2017-03-31T03:29:57.393029+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:716)
+2017-03-31T03:29:57.392702+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1588)
+2017-03-31T03:29:57.393284+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
+2017-03-31T03:29:57.393103+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
+2017-03-31T03:29:57.393415+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
+2017-03-31T03:29:57.393177+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
+2017-03-31T03:29:57.393525+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
+2017-03-31T03:29:57.393583+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
+2017-03-31T03:29:57.393338+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
+2017-03-31T03:29:57.393635+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
+2017-03-31T03:29:57.393696+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+2017-03-31T03:29:57.393463+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
+2017-03-31T03:29:57.393873+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
+2017-03-31T03:29:57.393755+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
+2017-03-31T03:29:57.393809+00:00 app[web.1]: 	at scala.collection.immutable.List.foreach(List.scala:318)
+2017-03-31T03:29:57.393983+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+2017-03-31T03:29:57.394107+00:00 app[web.1]: 	at play.api.Play$.start(Play.scala:87)
+2017-03-31T03:29:57.394155+00:00 app[web.1]: 	at play.core.StaticApplication.<init>(ApplicationProvider.scala:52)
+2017-03-31T03:29:57.394216+00:00 app[web.1]: 	at play.core.server.NettyServer$.createServer(NettyServer.scala:280)
+2017-03-31T03:29:57.393931+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
+2017-03-31T03:29:57.394280+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:316)
+2017-03-31T03:29:57.394048+00:00 app[web.1]: 	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
+2017-03-31T03:29:57.394469+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
+2017-03-31T03:29:57.394333+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:311)
+2017-03-31T03:29:57.394407+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
+2017-03-31T03:29:57.394526+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
