@@ -1,101 +1,101 @@
-2017-03-31T03:48:30.600028+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
-2017-03-31T03:48:30.600084+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
-2017-03-31T03:48:30.600134+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
-2017-03-31T03:48:30.600193+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
-2017-03-31T03:48:30.600236+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
-2017-03-31T03:48:30.600329+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
-2017-03-31T03:48:30.600378+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:48:30.600447+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:48:30.600517+00:00 app[web.1]: 	at scala.collection.immutable.List.foreach(List.scala:318)
-2017-03-31T03:48:30.600549+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
-2017-03-31T03:48:30.600654+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:48:30.600708+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:48:30.600757+00:00 app[web.1]: 	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
-2017-03-31T03:48:30.600792+00:00 app[web.1]: 	at play.api.Play$.start(Play.scala:87)
-2017-03-31T03:48:30.600834+00:00 app[web.1]: 	at play.core.StaticApplication.<init>(ApplicationProvider.scala:52)
-2017-03-31T03:48:30.600853+00:00 app[web.1]: 	at play.core.server.NettyServer$.createServer(NettyServer.scala:280)
-2017-03-31T03:48:30.600888+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:316)
-2017-03-31T03:48:30.600926+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:311)
-2017-03-31T03:48:30.601084+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
-2017-03-31T03:48:30.601159+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
-2017-03-31T03:48:30.601216+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
-2017-03-31T03:48:41.389458+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=bob-saver.herokuapp.com request_id=37b675a3-f515-4e45-bcb8-532470559daa fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:48:43.349745+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=bob-saver.herokuapp.com request_id=04972311-8a01-49d2-acab-43dc95281327 fwd="80.237.124.254" dyno= connect= service= status=503 bytes= protocol=https
-2017-03-31T03:51:09.324830+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:51:16.993214+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=4217 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
-2017-03-31T03:51:19.306255+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:51:19.500997+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
-2017-03-31T03:51:19.999778+00:00 app[web.1]: Play server process ID is 4
-2017-03-31T03:51:21.512092+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:postgresql://ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl
-2017-03-31T03:51:25.316540+00:00 heroku[web.1]: Process exited with status 255
-2017-03-31T03:51:25.355386+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:51:25.356414+00:00 heroku[web.1]: State changed from crashed to starting
-2017-03-31T03:51:25.166934+00:00 app[web.1]: Oops, cannot start the server.
-2017-03-31T03:51:25.167648+00:00 app[web.1]: com.amazonaws.services.s3.model.AmazonS3Exception: Your previous request to create the named bucket succeeded and you already own it. (Service: Amazon S3; Status Code: 409; Error Code: BucketAlreadyOwnedByYou; Request ID: 27B92CE3E697C505), S3 Extended Request ID: Q8+9xRTgoXLg0Q4IRC2jGWcro4lin/QCGycTB2yoCEiWbfIQF6Y19RfUSX6rFAfLGnKy3CyCLxo=
-2017-03-31T03:51:25.167902+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1588)
-2017-03-31T03:51:25.168003+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1030)
-2017-03-31T03:51:25.167952+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1258)
-2017-03-31T03:51:25.168053+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:742)
-2017-03-31T03:51:25.168105+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:716)
-2017-03-31T03:51:25.168158+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
-2017-03-31T03:51:25.168218+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
-2017-03-31T03:51:25.168275+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
-2017-03-31T03:51:25.168384+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
-2017-03-31T03:51:25.168335+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
-2017-03-31T03:51:25.168439+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
-2017-03-31T03:51:25.168496+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
-2017-03-31T03:51:25.168534+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
-2017-03-31T03:51:25.169136+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
-2017-03-31T03:51:25.169201+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:51:25.169228+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:51:25.169298+00:00 app[web.1]: 	at scala.collection.immutable.List.foreach(List.scala:318)
-2017-03-31T03:51:25.169359+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
-2017-03-31T03:51:25.170031+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:51:25.170101+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:51:25.170157+00:00 app[web.1]: 	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
-2017-03-31T03:51:25.170204+00:00 app[web.1]: 	at play.api.Play$.start(Play.scala:87)
-2017-03-31T03:51:25.170258+00:00 app[web.1]: 	at play.core.StaticApplication.<init>(ApplicationProvider.scala:52)
-2017-03-31T03:51:25.170293+00:00 app[web.1]: 	at play.core.server.NettyServer$.createServer(NettyServer.scala:280)
-2017-03-31T03:51:25.170343+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:316)
-2017-03-31T03:51:25.170395+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:311)
-2017-03-31T03:51:25.171138+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
-2017-03-31T03:51:25.171501+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
-2017-03-31T03:51:25.171558+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
-2017-03-31T03:51:31.685494+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=41668 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
-2017-03-31T03:51:33.945657+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
-2017-03-31T03:51:34.065631+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
-2017-03-31T03:51:34.677361+00:00 app[web.1]: Play server process ID is 4
-2017-03-31T03:51:36.089852+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:postgresql://ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl
-2017-03-31T03:51:39.557523+00:00 heroku[web.1]: Process exited with status 255
-2017-03-31T03:51:39.569532+00:00 heroku[web.1]: State changed from starting to crashed
-2017-03-31T03:51:39.386647+00:00 app[web.1]: Oops, cannot start the server.
-2017-03-31T03:51:39.387297+00:00 app[web.1]: com.amazonaws.services.s3.model.AmazonS3Exception: Your previous request to create the named bucket succeeded and you already own it. (Service: Amazon S3; Status Code: 409; Error Code: BucketAlreadyOwnedByYou; Request ID: 1683340F53187645), S3 Extended Request ID: CkWjj8LF5g2RRSBVVcgOhOVPxkZgoH7es61MjhtcTj+HDdOhJa8xK7PS/2lPaEFPmhjPDviZsYI=
-2017-03-31T03:51:39.387588+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1588)
-2017-03-31T03:51:39.387647+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1258)
-2017-03-31T03:51:39.387707+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1030)
-2017-03-31T03:51:39.387765+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:742)
-2017-03-31T03:51:39.387822+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:716)
-2017-03-31T03:51:39.387878+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)
-2017-03-31T03:51:39.387942+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)
-2017-03-31T03:51:39.387997+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)
-2017-03-31T03:51:39.388048+00:00 app[web.1]: 	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)
-2017-03-31T03:51:39.388100+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4187)
-2017-03-31T03:51:39.388153+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4134)
-2017-03-31T03:51:39.388204+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:1021)
-2017-03-31T03:51:39.388257+00:00 app[web.1]: 	at com.amazonaws.services.s3.AmazonS3Client.createBucket(AmazonS3Client.java:959)
-2017-03-31T03:51:39.388557+00:00 app[web.1]: 	at plugins.S3Plugin.onStart(S3Plugin.java:35)
-2017-03-31T03:51:39.388610+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:51:39.388655+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:88)
-2017-03-31T03:51:39.388707+00:00 app[web.1]: 	at scala.collection.immutable.List.foreach(List.scala:318)
-2017-03-31T03:51:39.389124+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:51:39.388760+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:88)
-2017-03-31T03:51:39.389199+00:00 app[web.1]: 	at play.api.Play$$anonfun$start$1.apply(Play.scala:88)
-2017-03-31T03:51:39.389261+00:00 app[web.1]: 	at play.utils.Threads$.withContextClassLoader(Threads.scala:18)
-2017-03-31T03:51:39.389312+00:00 app[web.1]: 	at play.api.Play$.start(Play.scala:87)
-2017-03-31T03:51:39.389369+00:00 app[web.1]: 	at play.core.StaticApplication.<init>(ApplicationProvider.scala:52)
-2017-03-31T03:51:39.389423+00:00 app[web.1]: 	at play.core.server.NettyServer$.createServer(NettyServer.scala:280)
-2017-03-31T03:51:39.389485+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:316)
-2017-03-31T03:51:39.389931+00:00 app[web.1]: 	at play.core.server.NettyServer$$anonfun$main$3.apply(NettyServer.scala:311)
-2017-03-31T03:51:39.390806+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145)
-2017-03-31T03:51:39.390879+00:00 app[web.1]: 	at play.core.server.NettyServer$.main(NettyServer.scala:311)
-2017-03-31T03:51:39.390941+00:00 app[web.1]: 	at play.core.server.NettyServer.main(NettyServer.scala)
+2017-03-31T04:01:59.982506+00:00 heroku[web.1]: Starting process with command `target/universal/stage/bin/bigbob -Dhttp.port=28454 -DapplyEvolutions.default=true -Ddb.default.driver=org.postgresql.Driver -Ddb.default.url=postgres://ateuzcehjscmge:149e0acf1f2c52439e2d2e464ff1114da7d1df13b890bfbf59fbf27343e615e6@ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl`
+2017-03-31T04:02:01.666775+00:00 app[web.1]: Setting JAVA_TOOL_OPTIONS defaults based on dyno size. Custom settings will override them.
+2017-03-31T04:02:01.759391+00:00 app[web.1]: Picked up JAVA_TOOL_OPTIONS: -Xmx350m -Xss512k -Dfile.encoding=UTF-8
+2017-03-31T04:02:02.130175+00:00 app[web.1]: Play server process ID is 4
+2017-03-31T04:02:03.178971+00:00 app[web.1]: [[37minfo[0m] play - database [default] connected at jdbc:postgresql://ec2-176-34-113-15.eu-west-1.compute.amazonaws.com:5432/d93d063h9a7tvl
+2017-03-31T04:02:05.170302+00:00 app[web.1]: [[37minfo[0m] play - Listening for HTTP on /0:0:0:0:0:0:0:0:28454
+2017-03-31T04:02:05.035984+00:00 app[web.1]: [[37minfo[0m] application - Using S3 Bucket: heroku-bob-saver-from-bigbob-to-littlebob-with-fatbob-v.01
+2017-03-31T04:02:05.041160+00:00 app[web.1]: [[37minfo[0m] play - Application started (Prod)
+2017-03-31T04:02:05.267313+00:00 heroku[web.1]: State changed from starting to up
+2017-03-31T04:02:23.290821+00:00 app[web.1]: [[31merror[0m] play - Cannot invoke the action, eventually got an error: javax.persistence.PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:23.290843+00:00 app[web.1]: Query was:
+2017-03-31T04:02:23.290841+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:23.290845+00:00 app[web.1]: 
+2017-03-31T04:02:23.290842+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:23.290846+00:00 app[web.1]: 
+2017-03-31T04:02:23.309010+00:00 app[web.1]: [[31merror[0m] application - 
+2017-03-31T04:02:23.290844+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:23.309013+00:00 app[web.1]: 
+2017-03-31T04:02:23.309015+00:00 app[web.1]: 
+2017-03-31T04:02:23.309014+00:00 app[web.1]: ! @73g8mh7c4 - Internal server error, for (GET) [/] ->
+2017-03-31T04:02:23.309016+00:00 app[web.1]: play.api.Application$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:23.309018+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:23.309020+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:23.309017+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:23.309021+00:00 app[web.1]: 
+2017-03-31T04:02:23.309019+00:00 app[web.1]: Query was:
+2017-03-31T04:02:23.309021+00:00 app[web.1]: ]]
+2017-03-31T04:02:23.309022+00:00 app[web.1]: 	at play.api.Application$class.handleError(Application.scala:293) ~[com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:23.309023+00:00 app[web.1]: 	at play.api.DefaultApplication.handleError(Application.scala:399) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:23.309027+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:23.309028+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:23.309029+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:23.309029+00:00 app[web.1]: Query was:
+2017-03-31T04:02:23.309030+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:23.309031+00:00 app[web.1]: 
+2017-03-31T04:02:23.309025+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:23.309024+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:23.309027+00:00 app[web.1]: Caused by: javax.persistence.PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:23.309026+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145) [org.scala-lang.scala-library-2.10.3.jar:na]
+2017-03-31T04:02:23.309033+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:202) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309035+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:265) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309031+00:00 app[web.1]: 
+2017-03-31T04:02:23.309036+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1460) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309036+00:00 app[web.1]: Caused by: org.postgresql.util.PSQLException: ERROR: relation "s3file" does not exist
+2017-03-31T04:02:23.309032+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:790) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309033+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:767) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309037+00:00 app[web.1]:   Position: 57
+2017-03-31T04:02:23.309034+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:77) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:23.309038+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.309040+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.309040+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.309038+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.309039+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.309041+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:23.338368+00:00 heroku[router]: at=info method=GET path="/" host=bob-saver.herokuapp.com request_id=732c2e34-0c2e-4c29-8a52-999d2e73b594 fwd="80.237.124.254" dyno=web.1 connect=0ms service=657ms status=500 bytes=2060 protocol=https
+2017-03-31T04:02:33.848726+00:00 app[web.1]: [[31merror[0m] play - Cannot invoke the action, eventually got an error: javax.persistence.PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:33.848742+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:33.848743+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:33.851170+00:00 app[web.1]: [[31merror[0m] application - 
+2017-03-31T04:02:33.848744+00:00 app[web.1]: Query was:
+2017-03-31T04:02:33.851175+00:00 app[web.1]: 
+2017-03-31T04:02:33.848745+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:33.851176+00:00 app[web.1]: play.api.Application$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:33.848745+00:00 app[web.1]: 
+2017-03-31T04:02:33.848746+00:00 app[web.1]: 
+2017-03-31T04:02:33.851174+00:00 app[web.1]: ! @73g8mhn22 - Internal server error, for (GET) [/] ->
+2017-03-31T04:02:33.851173+00:00 app[web.1]: 
+2017-03-31T04:02:33.851180+00:00 app[web.1]: ]]
+2017-03-31T04:02:33.851176+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:33.851177+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:33.851178+00:00 app[web.1]: Query was:
+2017-03-31T04:02:33.851179+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:33.851179+00:00 app[web.1]: 
+2017-03-31T04:02:33.855147+00:00 heroku[router]: at=info method=GET path="/" host=bob-saver.herokuapp.com request_id=e35b2384-d036-4b54-bb84-91c8fbde109a fwd="80.237.124.254" dyno=web.1 connect=0ms service=18ms status=500 bytes=2060 protocol=https
+2017-03-31T04:02:33.851183+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:33.851184+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$3.apply(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:33.851181+00:00 app[web.1]: 	at play.api.Application$class.handleError(Application.scala:293) ~[com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:33.851182+00:00 app[web.1]: 	at play.api.DefaultApplication.handleError(Application.scala:399) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:33.851188+00:00 app[web.1]: Query was:
+2017-03-31T04:02:33.851184+00:00 app[web.1]: 	at scala.Option.map(Option.scala:145) [org.scala-lang.scala-library-2.10.3.jar:na]
+2017-03-31T04:02:33.851185+00:00 app[web.1]: 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:268) [com.typesafe.play.play_2.10-2.2.6.jar:2.2.6]
+2017-03-31T04:02:33.851186+00:00 app[web.1]: Caused by: javax.persistence.PersistenceException: Query threw SQLException:ERROR: relation "s3file" does not exist
+2017-03-31T04:02:33.851190+00:00 app[web.1]: 
+2017-03-31T04:02:33.851187+00:00 app[web.1]:   Position: 57 
+2017-03-31T04:02:33.851190+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:790) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851187+00:00 app[web.1]: Bind values:[] 
+2017-03-31T04:02:33.851188+00:00 app[web.1]: select t0.id as c0, t0.bucket as c1, t0.name as c2 from s3file t0 
+2017-03-31T04:02:33.851189+00:00 app[web.1]: 
+2017-03-31T04:02:33.851195+00:00 app[web.1]: Caused by: org.postgresql.util.PSQLException: ERROR: relation "s3file" does not exist
+2017-03-31T04:02:33.851191+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:767) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851192+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:202) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851193+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:77) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851194+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:265) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851197+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1836) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:33.851194+00:00 app[web.1]: 	at com.avaje.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1460) ~[org.avaje.ebeanorm.avaje-ebeanorm-3.2.2.jar:na]
+2017-03-31T04:02:33.851198+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:33.851196+00:00 app[web.1]:   Position: 57
+2017-03-31T04:02:33.851196+00:00 app[web.1]: 	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2103) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:33.851199+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:512) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:33.851199+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
+2017-03-31T04:02:33.851200+00:00 app[web.1]: 	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:273) ~[postgresql.postgresql-9.1-901-1.jdbc4.jar:na]
