@@ -1,20 +1,23 @@
 package controllers;
 
 import models.S3File;
-import play.db.ebean.Model;
 import play.mvc.Controller;
-import play.mvc.Result;
 import play.mvc.Http;
-
+import play.mvc.Result;
+import play.mvc.Security;
+import util.Secured;
 import views.html.index;
 
 import java.util.List;
-import java.util.UUID;
 
+@Security.Authenticated(Secured.class)
 public class Application extends Controller {
 
     public static Result index() {
-        List<S3File> uploads = new Model.Finder(UUID.class, S3File.class).all();
+        return redirect(routes.Auth.login());
+    }
+    public static Result index1() {
+        List<S3File> uploads = Auth.currentUser().getList();
         return ok(index.render(uploads));
     }
 
@@ -23,10 +26,11 @@ public class Application extends Controller {
         Http.MultipartFormData.FilePart uploadFilePart = body.getFile("upload");
         if (uploadFilePart != null) {
             S3File s3File = new S3File();
-            s3File.name = uploadFilePart.getFilename();
-            s3File.file = uploadFilePart.getFile();
+            s3File.setName(uploadFilePart.getFilename());
+            s3File.setFile(uploadFilePart.getFile());
+            s3File.setUser(Auth.currentUser());
             s3File.save();
-            return redirect(routes.Application.index());
+            return redirect(routes.Application.index1());
         }
         else {
             return badRequest("File upload error");

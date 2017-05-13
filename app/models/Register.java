@@ -25,8 +25,6 @@ import play.data.validation.Constraints.Required;
  */
 
 public class Register{
-
-    //todo обязательное поле с подписью, эл. почта
     @Email(message = "Некорректный адрес электронной почты")
     @Required(message = "Введите email")
     public String email;

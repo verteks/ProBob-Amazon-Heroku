@@ -1,8 +1,7 @@
 package models;
 
 import controllers.Auth;
-import play.data.validation.Constraints.*;
-import scala.reflect.internal.Trees;
+import play.data.validation.Constraints.Required;
 
 /**
  * Данный класс необходим для обработки формы смены пароля.

@@ -8,6 +8,7 @@ import plugins.S3Plugin;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.Transient;
 import java.io.File;
 import java.net.MalformedURLException;
@@ -18,14 +19,28 @@ import java.util.UUID;
 public class S3File extends Model {
 
     @Id
-    public UUID id;
+    private UUID id;
 
     private String bucket;
 
-    public String name;
+    @ManyToOne
+    private User user;
+
+    private String name;
 
     @Transient
-    public File file;
+    private File file;
+
+    public UUID getId() {return id;}
+    public String getName() {return name;}
+    public File getFile() {return file;}
+    public User getUser() {return user;}
+    public String getBucket() {return bucket;}
+
+    public void setName(String name) {this.name = name;}
+    public void setBucket(String bucket) {this.bucket = bucket;}
+    public void setFile(File file) {this.file = file;}
+    public void setUser(User user) {this.user = user;}
 
     public URL getUrl() throws MalformedURLException {
         return new URL("https://s3.amazonaws.com/" + bucket + "/" + getActualFileName());

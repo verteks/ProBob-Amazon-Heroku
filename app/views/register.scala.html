@@ -1,0 +1,23 @@
+@(regForm: Form[Register])
+    @main("Регистрация") {
+        @if(regForm.hasErrors) {
+            <div class="alert alert-danger">
+                <a class="close" data-dismiss="alert">x</a>
+                @if(regForm.errors.size() > 0) {
+                    @for((key, value) <- regForm.errors) {
+                        @for(err <- value) {
+                            <p>@err.message().toString()</p>
+                        }
+                    }
+                }
+            </div>
+        }
+
+        @helper.form(routes.Auth.register()) {
+            @input(regForm("email"), "Email", 'type -> "email")
+            @input(regForm("password"), "Пароль", 'type -> "password")
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+            </div>
+        }
+    }

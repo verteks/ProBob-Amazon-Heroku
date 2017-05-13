@@ -1,0 +1,25 @@
+@(form: Form[ChangePassword])
+    @main("Профиль") {
+        @if(form.hasErrors) {
+            <div class="alert alert-danger">
+                <a class="close" data-dismiss="alert">x</a>
+                @if(form.errors.size() > 0) {
+                    @for((key, value) <- form.errors) {
+                        @for(err <- value) {
+                            <p>@err.message().toString()</p>
+                        }
+                    }
+                }
+            </div>
+        }
+        <h1>Профиль</h1>
+        @Auth.currentUserEmail()
+        <h3>Изменение пароля</h3>
+        @helper.form(routes.Admin.changePassword()) {
+            @input(form("password"), "Текущий пароль", 'type -> "password")
+            @input(form("newPassword"), "Новый пароль", 'type -> "password")
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Изменить</button>
+            </div>
+        }
+    }

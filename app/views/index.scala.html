@@ -1,12 +1,8 @@
 @(s3Files: List[models.S3File])
-<!DOCTYPE html>
 
-<html>
-<head>
-    <title>File Upload with Java, Play 2, and S3</title>
-    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-</head>
-<body>
+
+    @main("Регистрация") {
+
     <h1>Upload a file:</h1>
     
     @helper.form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
@@ -17,9 +13,7 @@
     <h1>Uploads:</h1>
     <ul>
     @for(s3file <- s3Files) {
-        <li><a href="@s3file.getUrl()">@s3file.name</a></li>
+        <li><a href="@s3file.getUrl()">@s3file.getName()</a></li>
     }
     </ul>
-
-</body>
-</html>
+    }
