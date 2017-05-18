@@ -30,8 +30,9 @@ public class AmazonUpload extends Controller{
         return Json.newObject().put("error", errorMessage);
     }
     public static Result getInfo() {
-        return ok(toJson(S3Plugin.getBucket()));  //toJson преобразует объект или список объектов в соответствующий JSON
+        return ok(toJson(S3Plugin.s3Bucket));  //toJson преобразует объект или список объектов в соответствующий JSON
     }
+
 
 
 
