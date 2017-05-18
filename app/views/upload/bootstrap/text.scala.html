@@ -1,0 +1,16 @@
+@(field: Field, label:String, placeholder:String, help:String, dataBind: String)
+
+<div class="form-group @if(field.hasErrors) {error}">
+  <label class="control-label" for="@field.id">@label</label>
+    <input
+      class="form-control"
+      type="text"
+      id="@field.id"
+      name="@field.name"
+      data-bind="@dataBind"
+      value="@field.value.getOrElse("")"
+      placeholder="@placeholder" />
+
+    <p class="help-block">@help</p>
+    <p class="help-block">@{field.error.map { error => error.message }}</p>
+</div>

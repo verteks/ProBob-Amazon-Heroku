@@ -22,6 +22,9 @@ public class S3Plugin extends Plugin {
     public S3Plugin(Application application) {
         this.application = application;
     }
+    public static String getBucket(){
+        return AWS_S3_BUCKET;
+    }
 
     @Override
     public void onStart() {

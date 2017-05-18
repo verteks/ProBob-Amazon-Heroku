@@ -4,13 +4,11 @@ import models.S3File;
 import play.mvc.Controller;
 import play.mvc.Http;
 import play.mvc.Result;
-import play.mvc.Security;
-import util.Secured;
 import views.html.index;
 
 import java.util.List;
 
-@Security.Authenticated(Secured.class)
+//@Security.Authenticated(Secured.class)
 public class Application extends Controller {
 
     public static Result index() {
