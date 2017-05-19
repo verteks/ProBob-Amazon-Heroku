@@ -4,8 +4,10 @@ import models.S3File;
 import play.mvc.Controller;
 import play.mvc.Http;
 import play.mvc.Result;
+import util.Secured;
 import views.html.index;
 
+import java.security.Security;
 import java.util.List;
 
 //@Security.Authenticated(Secured.class)

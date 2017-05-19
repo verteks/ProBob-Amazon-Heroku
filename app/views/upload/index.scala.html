@@ -1,18 +1,17 @@
+@(s3Bucket: String,accessKey : String,filename : String,acl: String,success_action_redirect: String,policy: String,signature: String)
 @import bootstrap._
 
 @main("Uplode") {
     <div data-bind="uploadViewModel">
 
-            <form action="https://s3-bucket.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="key" value="uploads/${filename}">
+            <form action="https://@s3Bucket+.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="key" value="@filename">
                 <input type="hidden" name="AWSAccessKeyId" value="YOUR_AWS_ACCESS_KEY">
-                <input type="hidden" name="acl" value="private">
-                <input type="hidden" name="success_action_redirect" value="http://localhost/">
-                <input type="hidden" name="policy" value="YOUR_POLICY_DOCUMENT_BASE64_ENCODED">
-                <input type="hidden" name="signature" value="YOUR_CALCULATED_SIGNATURE">
-                <input type="hidden" name="Content-Type" value="image/jpeg">
-                    <!-- Include any additional input fields here -->
-
+                <input type="hidden" name="acl" value="@acl">
+                <input type="hidden" name="success_action_redirect" value="@success_action_redirect">
+                <input type="hidden" name="policy" value="@policy">
+                <input type="hidden" name="signature" value="@signature">
+                <input type="hidden" name="Content-Type" value="">
                     File to upload to S3:
                 <input name="file" type="file">
                 <br>
@@ -22,6 +21,6 @@
     </div>
 
 
-    <script language = "javascript" lang="javascript" src ='@routes.Assets.at("javascripts/app.js")'></script>
+    <!--<script language = "javascript" lang="javascript" src ='@routes.Assets.at("javascripts/app.js")'></script>-->
 
 }

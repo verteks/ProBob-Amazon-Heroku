@@ -40,8 +40,8 @@ public class User extends Model {
     public static Finder<String, User> findByEmail = new Finder<String, User>(String.class, User.class);
     public static Finder<UUID, User> findById = new Finder<UUID, User>(UUID.class, User.class);
     public static User findByEmail(String email) {
-        return findByEmail.ref(email);
-        //return new User("asdasd@asd","asd");
+        //return findByEmail.ref(email);
+        return new User("asdasd@asd","asd");
     }
     public static User findById(UUID id) {
         return findById.ref(id);
