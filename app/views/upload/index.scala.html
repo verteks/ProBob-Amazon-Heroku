@@ -1,12 +1,19 @@
-@(s3Bucket: String,accessKey : String,filename : String,acl: String,success_action_redirect: String,policy: String,signature: String)
+@(s3Bucket: String,filename : String,accessKey : String,acl: String,success_action_redirect: String,policy: String,signature: String)
 @import bootstrap._
 
 @main("Uplode") {
     <div data-bind="uploadViewModel">
+        <p>@s3Bucket</p>
+        <p>@filename</p>
+        <p>@accessKey</p>
+        <p>@acl</p>
+        <p>@success_action_redirect</p>
+        <p>@policy</p>
+        <p>@signature</p>
 
-            <form action="https://@s3Bucket+.s3.amazonaws.com/" method="post" enctype="multipart/form-data">
+            <form action="@s3Bucket" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="key" value="@filename">
-                <input type="hidden" name="AWSAccessKeyId" value="YOUR_AWS_ACCESS_KEY">
+                <input type="hidden" name="AWSAccessKeyId" value="@accessKey">
                 <input type="hidden" name="acl" value="@acl">
                 <input type="hidden" name="success_action_redirect" value="@success_action_redirect">
                 <input type="hidden" name="policy" value="@policy">

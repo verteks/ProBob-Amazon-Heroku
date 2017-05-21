@@ -2,16 +2,16 @@ package controllers;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import models.S3File;
+import play.Logger;
 import play.Routes;
+import play.api.Play;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 import plugins.S3Plugin;
-import views.html.index;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import javax.print.DocFlavor;
 import javax.xml.bind.DatatypeConverter;
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
@@ -35,27 +35,30 @@ public class AmazonUpload extends Controller{
     private UUID id;
 
 
-
-   public static Result index() {
+    public static Result index() {
        return redirect(routes.AmazonUpload.upload());
    }
 
     public static Result upload() throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException {
         List<S3File> uploads = Auth.currentUser().getList();
-        String s3Bucket = S3Plugin.application.configuration().getString(AWS_S3_BUCKET);
+        String s3Bucket = S3Plugin.s3Bucket;
         UUID id = UUID.randomUUID();
-        String accessKey = application.configuration().getString(AWS_ACCESS_KEY);
-        String secretKey = application.configuration().getString(AWS_SECRET_KEY);
+        String accessKey = S3Plugin.getKey();
         String acl = "public-read";
         String success_action_redirect = "localhost:9000/uplode";
-
-        String policy_document = "all files";
+        Logger.info(accessKey);
+        String policy_document = "{ \"conditions\": [ \n" +
+                "    {\"bucket\": \""+s3Bucket+"\"}, \n" +
+                "    [\"starts-with\", \""+id.toString()+"\", \"uploads/\"],\n" +
+                "    {\"acl\": \"public-read\"},\n" +
+                "    {\"success_action_redirect\": \"http://localhost:9000/uplode\"},\n" +
+                "    [\"starts-with\", \"$Content-Type\", \"\"],\n" +
+                "    [\"content-length-range\", 0, 1048576]\n" +
+                "  ]\n" +
+                "}";
         String policy = DatatypeConverter.printBase64Binary(policy_document.getBytes("UTF-8")).replaceAll("\n","").replaceAll("\r","");
-        Mac hmac = Mac.getInstance("HmacSHA1");
-        hmac.init(new SecretKeySpec(secretKey.getBytes("UTF-8"), "HmacSHA1"));
-        String signature = DatatypeConverter.printBase64Binary(hmac.doFinal(policy.getBytes("UTF-8"))).replaceAll("\n", "").replaceAll("\r","");
-
-        return ok(views.html.upload.index.render(s3Bucket,id.toString(),accessKey,acl,success_action_redirect,policy.toString(),signature.toString()));
+        String signature = S3Plugin.getHMac(policy);
+        return ok(views.html.upload.index.render("https://"+s3Bucket+".s3.amazonaws.com",id.toString(),accessKey,acl,success_action_redirect,policy.toString(),signature.toString()));
     }
 
     private static Result errorJsonResult(String errorMessage) {

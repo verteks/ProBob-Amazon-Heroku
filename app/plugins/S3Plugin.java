@@ -8,6 +8,13 @@ import play.Application;
 import play.Logger;
 import play.Plugin;
 
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+import javax.xml.bind.DatatypeConverter;
+import java.io.UnsupportedEncodingException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+
 public class S3Plugin extends Plugin {
 
     public static final String AWS_S3_BUCKET = "aws.s3.bucket";
@@ -18,6 +25,8 @@ public class S3Plugin extends Plugin {
     public static AmazonS3 amazonS3;
 
     public static String s3Bucket;
+    private static String accessKey;
+    private static String secretKey;
 
     public S3Plugin(Application application) {
         this.application = application;
@@ -26,8 +35,8 @@ public class S3Plugin extends Plugin {
 
     @Override
     public void onStart() {
-        String accessKey = application.configuration().getString(AWS_ACCESS_KEY);
-        String secretKey = application.configuration().getString(AWS_SECRET_KEY);
+        accessKey = application.configuration().getString(AWS_ACCESS_KEY);
+        secretKey = application.configuration().getString(AWS_SECRET_KEY);
         s3Bucket = application.configuration().getString(AWS_S3_BUCKET);
         
         if ((accessKey != null) && (secretKey != null)) {
@@ -44,5 +53,15 @@ public class S3Plugin extends Plugin {
                 application.configuration().keys().contains(AWS_SECRET_KEY) &&
                 application.configuration().keys().contains(AWS_S3_BUCKET));
     }
+    public static String getHMac(String policy) throws UnsupportedEncodingException, InvalidKeyException, NoSuchAlgorithmException {
+        Mac hmac = Mac.getInstance("HmacSHA1");
+        hmac.init(new SecretKeySpec(secretKey.getBytes("UTF-8"), "HmacSHA1"));
+        String signature = DatatypeConverter.printBase64Binary(hmac.doFinal(policy.getBytes("UTF-8"))).replaceAll("\n", "").replaceAll("\r","");
+        return signature;
+    }
+    public static String getKey(){
+        return accessKey;
+    }
+
     
 }
