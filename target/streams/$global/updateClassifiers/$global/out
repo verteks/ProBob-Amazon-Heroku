@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37e680e7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10bb3c7e
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->default(compile)]
 [info] Resolving postgresql#postgresql;9.1-901-1.jdbc4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c1ab525
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@701b379c
 [debug] sbt-chain: module revision found in cache: postgresql#postgresql;9.1-901-1.jdbc4
 [debug] 	local: revision in cache: postgresql#postgresql;9.1-901-1.jdbc4
 [debug] 	found postgresql#postgresql;9.1-901-1.jdbc4 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->postgresql#postgresql;9.1-901-1.jdbc4 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-pinpoint;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-pinpoint;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1db89cbb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@490efcaf
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-pinpoint;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-pinpoint;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-pinpoint;1.11.109 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-pinpoint;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-core;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-core;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55d9635e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f659b03
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-core;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-core;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-core;1.11.109 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-core;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.2 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c9e535f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15690e58
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	found org.apache.httpcomponents#httpclient;4.5.2 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.5.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.4 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a1ff58e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@aa2ffcb
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	found org.apache.httpcomponents#httpcore;4.4.4 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.4.4 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e1ff216
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b67106e
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-logging#commons-logging;1.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@687f9099
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@649121b9
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->software.amazon.ion#ion-java;1.0.2 [compile->default(compile)]
 [info] Resolving software.amazon.ion#ion-java;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c0fbefd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@771a25e6
 [debug] sbt-chain: module revision found in cache: software.amazon.ion#ion-java;1.0.2
 [debug] 	local: revision in cache: software.amazon.ion#ion-java;1.0.2
 [debug] 	found software.amazon.ion#ion-java;1.0.2 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->software.amazon.ion#ion-java;1.0.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.6 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.6.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43136814
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60bb50dc
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.6.6
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.6.6
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.6.6 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b0a28b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cb6079c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.6.0
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.6.0
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.6.0 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.6 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.6.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aa3b896
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16e7f78f
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.6.6
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.6.6
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.6.6 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.6.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3962f3d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e6a1ed7
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6
 [debug] 	local: revision in cache: com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6
 [debug] 	found com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml.jackson.dataformat#jackson-dataformat-cbor;2.6.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->joda-time#joda-time;2.8.1 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.8.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@479e10b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12ce019c
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.8.1
 [debug] 	local: revision in cache: joda-time#joda-time;2.8.1
 [debug] 	found joda-time#joda-time;2.8.1 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->joda-time#joda-time;2.8.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#jmespath-java;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#jmespath-java;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17cc746f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dd1c12e
 [debug] sbt-chain: module revision found in cache: com.amazonaws#jmespath-java;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#jmespath-java;1.11.109
 [debug] 	found com.amazonaws#jmespath-java;1.11.109 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#jmespath-java;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-xray;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-xray;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d228b75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1701d39c
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-xray;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-xray;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-xray;1.11.109 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-xray;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-opsworkscm;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-opsworkscm;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18adaac2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ed0f63b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-opsworkscm;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-opsworkscm;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-opsworkscm;1.11.109 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-opsworkscm;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-support;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-support;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@597fa4f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75d7834a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-support;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-support;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-support;1.11.109 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-support;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-simpledb;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-simpledb;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79262da7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cb32ee7
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-simpledb;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-simpledb;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-simpledb;1.11.109 in sbt-chain
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-simpledb;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-servicecatalog;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-servicecatalog;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6206dc3f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fceb608
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-servicecatalog;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-servicecatalog;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-servicecatalog;1.11.109 in sbt-chain
@@ -187,7 +187,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-servicecatalog;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-servermigration;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-servermigration;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@689f330b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20968190
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-servermigration;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-servermigration;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-servermigration;1.11.109 in sbt-chain
@@ -196,7 +196,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-servermigration;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74b951dc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f555a7e
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109 in sbt-chain
@@ -205,7 +205,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-simpleworkflow;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-storagegateway;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-storagegateway;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73f27c74
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17efe462
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-storagegateway;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-storagegateway;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-storagegateway;1.11.109 in sbt-chain
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-storagegateway;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-route53;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-route53;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65fc47dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1183548d
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-route53;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-route53;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-route53;1.11.109 in sbt-chain
@@ -223,7 +223,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-route53;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-s3;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-s3;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f923b55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d326ec3
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-s3;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-s3;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-s3;1.11.109 in sbt-chain
@@ -232,7 +232,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-s3;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-kms;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-kms;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41b4ca2c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b05e1a0
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-kms;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-kms;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-kms;1.11.109 in sbt-chain
@@ -241,7 +241,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-kms;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-importexport;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-importexport;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1057c17e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f590df6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-importexport;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-importexport;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-importexport;1.11.109 in sbt-chain
@@ -250,7 +250,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-importexport;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sts;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-sts;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6278a92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ec9921f
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-sts;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-sts;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-sts;1.11.109 in sbt-chain
@@ -259,7 +259,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sts;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sqs;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-sqs;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c029a3f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17343c2a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-sqs;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-sqs;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-sqs;1.11.109 in sbt-chain
@@ -268,7 +268,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sqs;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-rds;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-rds;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c6a9590
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@762f1737
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-rds;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-rds;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-rds;1.11.109 in sbt-chain
@@ -277,7 +277,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-rds;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-redshift;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-redshift;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e0f8b63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1736430b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-redshift;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-redshift;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-redshift;1.11.109 in sbt-chain
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-redshift;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50b07ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@664350ef
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109 in sbt-chain
@@ -295,7 +295,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticbeanstalk;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-glacier;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-glacier;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@394bd639
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a48949a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-glacier;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-glacier;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-glacier;1.11.109 in sbt-chain
@@ -304,7 +304,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-glacier;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sns;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-sns;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ff86404
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a3af185
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-sns;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-sns;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-sns;1.11.109 in sbt-chain
@@ -313,7 +313,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-sns;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-iam;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-iam;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@584e8d71
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4eb19e3f
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-iam;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-iam;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-iam;1.11.109 in sbt-chain
@@ -322,7 +322,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-iam;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-datapipeline;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-datapipeline;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30231b81
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@460eca7
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-datapipeline;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-datapipeline;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-datapipeline;1.11.109 in sbt-chain
@@ -331,7 +331,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-datapipeline;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a660fa1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5380a9b9
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109 in sbt-chain
@@ -340,7 +340,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticloadbalancing;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fb4e7b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1acdb894
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109 in sbt-chain
@@ -349,7 +349,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticloadbalancingv2;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-emr;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-emr;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f3e8ec4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b158f5f
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-emr;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-emr;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-emr;1.11.109 in sbt-chain
@@ -358,7 +358,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-emr;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticache;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elasticache;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3872ce50
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ec71591
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elasticache;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elasticache;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elasticache;1.11.109 in sbt-chain
@@ -367,7 +367,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticache;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@513cfd0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b2396ee
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109 in sbt-chain
@@ -376,7 +376,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elastictranscoder;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ec2;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ec2;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c29a5fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dde41c6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ec2;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-ec2;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-ec2;1.11.109 in sbt-chain
@@ -385,7 +385,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ec2;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-dynamodb;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-dynamodb;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@262b73d2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13d96a21
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-dynamodb;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-dynamodb;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-dynamodb;1.11.109 in sbt-chain
@@ -394,7 +394,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-dynamodb;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-budgets;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-budgets;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@481592b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bb79a08
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-budgets;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-budgets;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-budgets;1.11.109 in sbt-chain
@@ -403,7 +403,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-budgets;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudtrail;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudtrail;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6352acb0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@238af306
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudtrail;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudtrail;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudtrail;1.11.109 in sbt-chain
@@ -412,7 +412,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudtrail;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudwatch;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudwatch;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@624aee75
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f6093ac
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudwatch;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudwatch;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudwatch;1.11.109 in sbt-chain
@@ -421,7 +421,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudwatch;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-logs;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-logs;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d408db6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@531280fb
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-logs;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-logs;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-logs;1.11.109 in sbt-chain
@@ -430,7 +430,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-logs;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-events;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-events;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c90938
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@595c47f9
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-events;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-events;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-events;1.11.109 in sbt-chain
@@ -439,7 +439,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-events;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25d20671
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b79e941
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109 in sbt-chain
@@ -448,7 +448,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitoidentity;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitosync;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cognitosync;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@521d2f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6399f735
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cognitosync;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cognitosync;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cognitosync;1.11.109 in sbt-chain
@@ -457,7 +457,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitosync;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-directconnect;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-directconnect;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c46c4d5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@304ca4c6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-directconnect;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-directconnect;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-directconnect;1.11.109 in sbt-chain
@@ -466,7 +466,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-directconnect;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudformation;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudformation;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53a066c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fbb3e43
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudformation;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudformation;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudformation;1.11.109 in sbt-chain
@@ -475,7 +475,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudformation;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudfront;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudfront;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16b927a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b3d36ee
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudfront;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudfront;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudfront;1.11.109 in sbt-chain
@@ -484,7 +484,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudfront;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-clouddirectory;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-clouddirectory;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a547727
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d6fc4dc
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-clouddirectory;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-clouddirectory;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-clouddirectory;1.11.109 in sbt-chain
@@ -493,7 +493,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-clouddirectory;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-kinesis;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-kinesis;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51e14b9b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71badb57
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-kinesis;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-kinesis;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-kinesis;1.11.109 in sbt-chain
@@ -502,7 +502,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-kinesis;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-opsworks;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-opsworks;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4940988d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d1ae00b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-opsworks;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-opsworks;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-opsworks;1.11.109 in sbt-chain
@@ -511,7 +511,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-opsworks;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ses;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ses;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b80c453
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cb662e0
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ses;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-ses;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-ses;1.11.109 in sbt-chain
@@ -520,7 +520,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ses;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-autoscaling;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-autoscaling;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d0e211
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63db5fb
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-autoscaling;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-autoscaling;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-autoscaling;1.11.109 in sbt-chain
@@ -529,7 +529,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-autoscaling;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudsearch;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudsearch;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22d37567
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fe5cd55
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudsearch;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudsearch;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudsearch;1.11.109 in sbt-chain
@@ -538,7 +538,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudsearch;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4883d98c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c804912
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109 in sbt-chain
@@ -547,7 +547,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudwatchmetrics;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codedeploy;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-codedeploy;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50d6fd89
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17b1aa22
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-codedeploy;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-codedeploy;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-codedeploy;1.11.109 in sbt-chain
@@ -556,7 +556,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codedeploy;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codepipeline;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-codepipeline;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@153ab128
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@304590f6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-codepipeline;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-codepipeline;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-codepipeline;1.11.109 in sbt-chain
@@ -565,7 +565,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codepipeline;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-config;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-config;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33d8a2fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76936689
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-config;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-config;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-config;1.11.109 in sbt-chain
@@ -574,7 +574,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-config;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lambda;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-lambda;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16853608
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13b7c0b6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-lambda;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-lambda;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-lambda;1.11.109 in sbt-chain
@@ -583,7 +583,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lambda;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ecs;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ecs;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b7ec3e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7359d97d
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ecs;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-ecs;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-ecs;1.11.109 in sbt-chain
@@ -592,7 +592,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ecs;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ecr;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ecr;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40b8dfd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3e1eaf
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ecr;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-ecr;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-ecr;1.11.109 in sbt-chain
@@ -601,7 +601,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ecr;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudhsm;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cloudhsm;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73c837b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2811e2cd
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cloudhsm;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cloudhsm;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cloudhsm;1.11.109 in sbt-chain
@@ -610,7 +610,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cloudhsm;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ssm;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-ssm;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72ea32e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26155c25
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-ssm;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-ssm;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-ssm;1.11.109 in sbt-chain
@@ -619,7 +619,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-ssm;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-workspaces;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-workspaces;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c7adb58
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d437b58
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-workspaces;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-workspaces;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-workspaces;1.11.109 in sbt-chain
@@ -628,7 +628,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-workspaces;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-machinelearning;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-machinelearning;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b36b95a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41701549
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-machinelearning;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-machinelearning;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-machinelearning;1.11.109 in sbt-chain
@@ -637,7 +637,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-machinelearning;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-directory;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-directory;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1889d9a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34a8cde7
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-directory;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-directory;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-directory;1.11.109 in sbt-chain
@@ -646,7 +646,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-directory;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-efs;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-efs;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bdcdc16
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@569d6f7a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-efs;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-efs;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-efs;1.11.109 in sbt-chain
@@ -655,7 +655,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-efs;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codecommit;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-codecommit;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10e5d750
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cb1d24f
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-codecommit;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-codecommit;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-codecommit;1.11.109 in sbt-chain
@@ -664,7 +664,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codecommit;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-devicefarm;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-devicefarm;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71f7b4a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7558e37b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-devicefarm;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-devicefarm;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-devicefarm;1.11.109 in sbt-chain
@@ -673,7 +673,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-devicefarm;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticsearch;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-elasticsearch;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@483a1c94
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@605ec1ef
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-elasticsearch;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-elasticsearch;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-elasticsearch;1.11.109 in sbt-chain
@@ -682,7 +682,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-elasticsearch;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-waf;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-waf;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c30778f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@247b95b2
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-waf;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-waf;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-waf;1.11.109 in sbt-chain
@@ -691,7 +691,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-waf;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48367f0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f8a2e9
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109 in sbt-chain
@@ -700,7 +700,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-inspector;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-inspector;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b1260e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d99a8d5
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-inspector;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-inspector;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-inspector;1.11.109 in sbt-chain
@@ -709,7 +709,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-inspector;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-iot;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-iot;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41e469f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c78c69c
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-iot;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-iot;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-iot;1.11.109 in sbt-chain
@@ -718,7 +718,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-iot;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-api-gateway;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-api-gateway;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5516d77c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@722f2b2c
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-api-gateway;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-api-gateway;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-api-gateway;1.11.109 in sbt-chain
@@ -727,7 +727,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-api-gateway;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-acm;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-acm;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6394c2fb
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67dbcc05
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-acm;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-acm;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-acm;1.11.109 in sbt-chain
@@ -736,7 +736,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-acm;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-gamelift;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-gamelift;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57fab9ee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@92c02ec
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-gamelift;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-gamelift;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-gamelift;1.11.109 in sbt-chain
@@ -745,7 +745,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-gamelift;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-dms;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-dms;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6721457f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@37b6e9aa
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-dms;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-dms;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-dms;1.11.109 in sbt-chain
@@ -754,7 +754,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-dms;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6995f318
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50374b35
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109 in sbt-chain
@@ -763,7 +763,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-marketplacemeteringservice;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitoidp;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-cognitoidp;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@285fb09f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@327f1bc6
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-cognitoidp;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-cognitoidp;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-cognitoidp;1.11.109 in sbt-chain
@@ -772,7 +772,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-cognitoidp;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-discovery;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-discovery;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@441afc13
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36b8b9c8
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-discovery;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-discovery;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-discovery;1.11.109 in sbt-chain
@@ -781,7 +781,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-discovery;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ac15b86
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dc7b9be
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109 in sbt-chain
@@ -790,7 +790,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-applicationautoscaling;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-snowball;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-snowball;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a49cc46
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32c07e96
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-snowball;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-snowball;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-snowball;1.11.109 in sbt-chain
@@ -799,7 +799,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-snowball;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-rekognition;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-rekognition;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77ba96f7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f478b00
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-rekognition;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-rekognition;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-rekognition;1.11.109 in sbt-chain
@@ -808,7 +808,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-rekognition;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-polly;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-polly;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36c9f4b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e98fd6c
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-polly;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-polly;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-polly;1.11.109 in sbt-chain
@@ -817,7 +817,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-polly;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lightsail;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-lightsail;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7002182f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cda5455
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-lightsail;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-lightsail;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-lightsail;1.11.109 in sbt-chain
@@ -826,7 +826,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lightsail;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-stepfunctions;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-stepfunctions;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b631956
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dc04f1e
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-stepfunctions;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-stepfunctions;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-stepfunctions;1.11.109 in sbt-chain
@@ -835,7 +835,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-stepfunctions;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jayway.jsonpath#json-path;2.2.0 [compile->default(compile)]
 [info] Resolving com.jayway.jsonpath#json-path;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@296fa506
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1195d668
 [debug] sbt-chain: module revision found in cache: com.jayway.jsonpath#json-path;2.2.0
 [debug] 	local: revision in cache: com.jayway.jsonpath#json-path;2.2.0
 [debug] 	found com.jayway.jsonpath#json-path;2.2.0 in sbt-chain
@@ -844,7 +844,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jayway.jsonpath#json-path;2.2.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.16 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7023d38c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6284c7ac
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.16
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.16
 [debug] 	found org.slf4j#slf4j-api;1.7.16 in sbt-chain
@@ -853,7 +853,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.16 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-health;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-health;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69eb7737
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41cb5f7c
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-health;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-health;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-health;1.11.109 in sbt-chain
@@ -862,7 +862,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-health;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-costandusagereport;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-costandusagereport;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aee0224
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f4d6a1a
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-costandusagereport;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-costandusagereport;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-costandusagereport;1.11.109 in sbt-chain
@@ -871,7 +871,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-costandusagereport;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codebuild;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-codebuild;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@610513b2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a8cf69b
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-codebuild;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-codebuild;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-codebuild;1.11.109 in sbt-chain
@@ -880,7 +880,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-codebuild;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-appstream;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-appstream;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@653f2e6f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1aa32313
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-appstream;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-appstream;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-appstream;1.11.109 in sbt-chain
@@ -889,7 +889,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-appstream;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-shield;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-shield;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cda4fdc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42f060df
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-shield;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-shield;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-shield;1.11.109 in sbt-chain
@@ -898,7 +898,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-shield;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-batch;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-batch;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33906f34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9c3341d
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-batch;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-batch;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-batch;1.11.109 in sbt-chain
@@ -907,7 +907,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-batch;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lex;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-lex;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7239e32a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cdfef07
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-lex;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-lex;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-lex;1.11.109 in sbt-chain
@@ -916,7 +916,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-lex;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a7ce99f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77bec844
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109 in sbt-chain
@@ -925,7 +925,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-mechanicalturkrequester;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-organizations;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-organizations;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f4187b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@186c75bf
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-organizations;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-organizations;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-organizations;1.11.109 in sbt-chain
@@ -934,7 +934,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-organizations;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-workdocs;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-workdocs;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33c335b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@598890bc
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-workdocs;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-workdocs;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-workdocs;1.11.109 in sbt-chain
@@ -943,7 +943,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-workdocs;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-models;1.11.109 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-models;1.11.109 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@403d7d55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7333ccaf
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-models;1.11.109
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-models;1.11.109
 [debug] 	found com.amazonaws#aws-java-sdk-models;1.11.109 in sbt-chain
@@ -952,7 +952,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-models;1.11.109 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-swf-libraries;1.11.22 [compile->default(compile)]
 [info] Resolving com.amazonaws#aws-java-sdk-swf-libraries;1.11.22 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e702d6c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72b6530e
 [debug] sbt-chain: module revision found in cache: com.amazonaws#aws-java-sdk-swf-libraries;1.11.22
 [debug] 	local: revision in cache: com.amazonaws#aws-java-sdk-swf-libraries;1.11.22
 [debug] 	found com.amazonaws#aws-java-sdk-swf-libraries;1.11.22 in sbt-chain
@@ -961,7 +961,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.amazonaws#aws-java-sdk-swf-libraries;1.11.22 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-jdbc_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a511e78
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dafcd06
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-java-jdbc_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-java-jdbc_2.10;2.2.6 in sbt-chain
@@ -970,7 +970,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dc8e6cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e7dc57f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-jdbc_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-jdbc_2.10;2.2.6 in sbt-chain
@@ -979,7 +979,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d4f1429
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52b57be
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play_2.10;2.2.6
 [debug] 	found com.typesafe.play#play_2.10;2.2.6 in sbt-chain
@@ -988,7 +988,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#sbt-link;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-link;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f771069
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@441530b8
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#sbt-link;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#sbt-link;2.2.6
 [debug] 	found com.typesafe.play#sbt-link;2.2.6 in sbt-chain
@@ -997,7 +997,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#sbt-link;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.javassist#javassist;3.18.0-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.18.0-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36c5177c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@227038eb
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.0-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.18.0-GA
 [debug] 	found org.javassist#javassist;3.18.0-GA in sbt-chain
@@ -1006,7 +1006,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.javassist#javassist;3.18.0-GA [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ce68c79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61a05097
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.2.6
 [debug] 	found com.typesafe.play#play-exceptions;2.2.6 in sbt-chain
@@ -1015,7 +1015,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#templates_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#templates_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6007bbbf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c0bc40b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#templates_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#templates_2.10;2.2.6
 [debug] 	found com.typesafe.play#templates_2.10;2.2.6 in sbt-chain
@@ -1024,7 +1024,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#templates_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [compile->default(compile)]
 [info] Resolving com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@332fee1c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3525852e
 [debug] sbt-chain: module revision found in cache: com.github.scala-incubator.io#scala-io-file_2.10;0.4.2
 [debug] 	local: revision in cache: com.github.scala-incubator.io#scala-io-file_2.10;0.4.2
 [debug] 	found com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 in sbt-chain
@@ -1033,7 +1033,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.github.scala-incubator.io#scala-io-file_2.10;0.4.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 [compile->default(compile)]
 [info] Resolving com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cfb997d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63ba2763
 [debug] sbt-chain: module revision found in cache: com.github.scala-incubator.io#scala-io-core_2.10;0.4.2
 [debug] 	local: revision in cache: com.github.scala-incubator.io#scala-io-core_2.10;0.4.2
 [debug] 	found com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 in sbt-chain
@@ -1042,7 +1042,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.github.scala-incubator.io#scala-io-core_2.10;0.4.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jsuereth#scala-arm_2.10;1.3 [compile->default(compile)]
 [info] Resolving com.jsuereth#scala-arm_2.10;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69b2cc44
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43020d69
 [debug] sbt-chain: module revision found in cache: com.jsuereth#scala-arm_2.10;1.3
 [debug] 	local: revision in cache: com.jsuereth#scala-arm_2.10;1.3
 [debug] 	found com.jsuereth#scala-arm_2.10;1.3 in sbt-chain
@@ -1051,7 +1051,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jsuereth#scala-arm_2.10;1.3 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e7a3eb8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a41166c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-iteratees_2.10;2.2.6 in sbt-chain
@@ -1060,7 +1060,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.10;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.10;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4892209a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8c07f40
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	found org.scala-stm#scala-stm_2.10;0.7 in sbt-chain
@@ -1069,7 +1069,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.10;0.7 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@326a2d0c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74b14b83
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.0.2
 [debug] 	local: revision in cache: com.typesafe#config;1.0.2
 [debug] 	found com.typesafe#config;1.0.2 in sbt-chain
@@ -1078,7 +1078,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe#config;1.0.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-json_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d36318
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2339390a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-json_2.10;2.2.6 in sbt-chain
@@ -1087,7 +1087,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-json_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f51289c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6479d8ec
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-functional_2.10;2.2.6 in sbt-chain
@@ -1096,7 +1096,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a7c0222
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7075c81e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-datacommons_2.10;2.2.6 in sbt-chain
@@ -1105,7 +1105,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.joda#joda-convert;1.3.1 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79f361c3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56b09ac2
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.3.1
 [debug] 	local: revision in cache: org.joda#joda-convert;1.3.1
 [debug] 	found org.joda#joda-convert;1.3.1 in sbt-chain
@@ -1114,7 +1114,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.joda#joda-convert;1.3.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.3 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7eb2c235
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72b48448
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.3
 [debug] 	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain
@@ -1124,7 +1124,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.3 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->io.netty#netty;3.7.1.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.7.1.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@758fb68d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56ba7e1d
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.7.1.Final
 [debug] 	local: revision in cache: io.netty#netty;3.7.1.Final
 [debug] 	found io.netty#netty;3.7.1.Final in sbt-chain
@@ -1133,7 +1133,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->io.netty#netty;3.7.1.Final [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30cd74dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@306519d2
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain
@@ -1142,7 +1142,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56618c80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d864b31
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.5
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.5 in sbt-chain
@@ -1151,7 +1151,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56cee22f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e331cd3
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.5
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.5 in sbt-chain
@@ -1160,7 +1160,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.5 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.0.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@413c5f35
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a639932
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.13
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.0.13
 [debug] 	found ch.qos.logback#logback-core;1.0.13 in sbt-chain
@@ -1169,7 +1169,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.0.13 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.0.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14f447fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43804947
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.13
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.0.13
 [debug] 	found ch.qos.logback#logback-classic;1.0.13 in sbt-chain
@@ -1178,7 +1178,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.0.13 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72bb2129
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c32c396
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.2.0
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.2.0
 [debug] 	found com.typesafe.akka#akka-actor_2.10;2.2.0 in sbt-chain
@@ -1187,7 +1187,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.2.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.10;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34028ef6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39cc6204
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.0
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.2.0
 [debug] 	found com.typesafe.akka#akka-slf4j_2.10;2.2.0 in sbt-chain
@@ -1196,7 +1196,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.2.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d2fbe93
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65529bfc
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	found org.apache.commons#commons-lang3;3.1 in sbt-chain
@@ -1205,7 +1205,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.7.18 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.7.18 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f4f3e63
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fcc9e52
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.7.18
 [debug] 	local: revision in cache: com.ning#async-http-client;1.7.18
 [debug] 	found com.ning#async-http-client;1.7.18 in sbt-chain
@@ -1214,7 +1214,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.ning#async-http-client;1.7.18 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f245ae6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22a048da
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
@@ -1223,7 +1223,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fe6e14
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@379ec28b
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
@@ -1232,7 +1232,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a1abc38
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1722edce
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -1241,7 +1241,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34d6ad7d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44d37106
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -1250,7 +1250,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28d378a1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fe89748
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -1259,7 +1259,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)]
 [info] Resolving com.jolbox#bonecp;0.8.0.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34ef69b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ece7968
 [debug] sbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	local: revision in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain
@@ -1268,7 +1268,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;14.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43ccc328
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59a1c544
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;14.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;14.0.1
 [debug] 	found com.google.guava#guava;14.0.1 in sbt-chain
@@ -1277,7 +1277,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.google.guava#guava;14.0.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.h2database#h2;1.3.172 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.3.172 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42487b32
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19ff4750
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.3.172
 [debug] 	local: revision in cache: com.h2database#h2;1.3.172
 [debug] 	found com.h2database#h2;1.3.172 in sbt-chain
@@ -1286,7 +1286,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.h2database#h2;1.3.172 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e50ca16
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b7fa8a6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-java_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-java_2.10;2.2.6 in sbt-chain
@@ -1295,7 +1295,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.yaml#snakeyaml;1.12 [compile->default(compile)]
 [info] Resolving org.yaml#snakeyaml;1.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@674ad913
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a70db0f
 [debug] sbt-chain: module revision found in cache: org.yaml#snakeyaml;1.12
 [debug] 	local: revision in cache: org.yaml#snakeyaml;1.12
 [debug] 	found org.yaml#snakeyaml;1.12 in sbt-chain
@@ -1304,7 +1304,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.yaml#snakeyaml;1.12 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.1.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-validator;5.0.1.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d69460e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e6d0f15
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-validator;5.0.1.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-validator;5.0.1.Final
 [debug] 	found org.hibernate#hibernate-validator;5.0.1.Final in sbt-chain
@@ -1313,7 +1313,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.1.Final [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->default(compile)]
 [info] Resolving javax.validation#validation-api;1.1.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f51dbc6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b50fc61
 [debug] sbt-chain: module revision found in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	local: revision in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	found javax.validation#validation-api;1.1.0.Final in sbt-chain
@@ -1322,7 +1322,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.1.1.GA [compile->default(compile)]
 [info] Resolving org.jboss.logging#jboss-logging;3.1.1.GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e39dd7f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1286a499
 [debug] sbt-chain: module revision found in cache: org.jboss.logging#jboss-logging;3.1.1.GA
 [debug] 	local: revision in cache: org.jboss.logging#jboss-logging;3.1.1.GA
 [debug] 	found org.jboss.logging#jboss-logging;3.1.1.GA in sbt-chain
@@ -1331,7 +1331,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.1.1.GA [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml#classmate;0.8.0 [compile->default(compile)]
 [info] Resolving com.fasterxml#classmate;0.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40b1cc9c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@873a750
 [debug] sbt-chain: module revision found in cache: com.fasterxml#classmate;0.8.0
 [debug] 	local: revision in cache: com.fasterxml#classmate;0.8.0
 [debug] 	found com.fasterxml#classmate;0.8.0 in sbt-chain
@@ -1340,7 +1340,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.fasterxml#classmate;0.8.0 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-context;3.2.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-context;3.2.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@772bc363
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51b4d67b
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-context;3.2.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-context;3.2.3.RELEASE
 [debug] 	found org.springframework#spring-context;3.2.3.RELEASE in sbt-chain
@@ -1349,7 +1349,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-context;3.2.3.RELEASE [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-core;3.2.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-core;3.2.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@607febaf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10f5aaf1
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-core;3.2.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-core;3.2.3.RELEASE
 [debug] 	found org.springframework#spring-core;3.2.3.RELEASE in sbt-chain
@@ -1358,7 +1358,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-core;3.2.3.RELEASE [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-beans;3.2.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-beans;3.2.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a94ddd7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66561d54
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-beans;3.2.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-beans;3.2.3.RELEASE
 [debug] 	found org.springframework#spring-beans;3.2.3.RELEASE in sbt-chain
@@ -1367,7 +1367,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.springframework#spring-beans;3.2.3.RELEASE [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->default(compile)]
 [info] Resolving org.reflections#reflections;0.9.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43588096
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41b0d038
 [debug] sbt-chain: module revision found in cache: org.reflections#reflections;0.9.8
 [debug] 	local: revision in cache: org.reflections#reflections;0.9.8
 [debug] 	found org.reflections#reflections;0.9.8 in sbt-chain
@@ -1376,7 +1376,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->default(compile)]
 [info] Resolving dom4j#dom4j;1.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78a090e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4fa4427f
 [debug] sbt-chain: module revision found in cache: dom4j#dom4j;1.6.1
 [debug] 	local: revision in cache: dom4j#dom4j;1.6.1
 [debug] 	found dom4j#dom4j;1.6.1 in sbt-chain
@@ -1385,7 +1385,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [compile->default(compile)]
 [info] Resolving javax.servlet#javax.servlet-api;3.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56ea0723
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cbf8999
 [debug] sbt-chain: module revision found in cache: javax.servlet#javax.servlet-api;3.0.1
 [debug] 	local: revision in cache: javax.servlet#javax.servlet-api;3.0.1
 [debug] 	found javax.servlet#javax.servlet-api;3.0.1 in sbt-chain
@@ -1394,7 +1394,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->javax.servlet#javax.servlet-api;3.0.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-ebean_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77848707
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e96bfc7
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-ebean_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-java-ebean_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-java-ebean_2.10;2.2.6 in sbt-chain
@@ -1403,7 +1403,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->default(compile)]
 [info] Resolving org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@533f7673
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33095ad2
 [debug] sbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2
 [debug] 	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.2.2
 [debug] 	found org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 in sbt-chain
@@ -1412,7 +1412,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm;3.2.2 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->default(compile)]
 [info] Resolving org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30a3d4e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49b3693c
 [debug] sbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1
 [debug] 	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1
 [debug] 	found org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 in sbt-chain
@@ -1421,7 +1421,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.1 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)]
 [info] Resolving org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57cd8f72
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@191a66b0
 [debug] sbt-chain: module revision found in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final
 [debug] 	local: revision in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final
 [debug] 	found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in sbt-chain
@@ -1430,7 +1430,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.6 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f3a3e37
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7edd1fb4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-cache_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-cache_2.10;2.2.6 in sbt-chain
@@ -1439,7 +1439,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.10;2.2.6 [compile->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.6 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f9659e3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@118f1380
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.6
 [debug] 	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.6
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.6 in sbt-chain
@@ -4655,7 +4655,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.6 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.10;2.2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3372ef04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a94bbc7
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.2.6
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.10;2.2.6
 [debug] 	found com.typesafe.play#play-test_2.10;2.2.6 in sbt-chain
@@ -4664,7 +4664,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->junit#junit;4.11 [test->default(compile)]
 [info] Resolving junit#junit;4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cda9741
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d8b58d0
 [debug] sbt-chain: module revision found in cache: junit#junit;4.11
 [debug] 	local: revision in cache: junit#junit;4.11
 [debug] 	found junit#junit;4.11 in sbt-chain
@@ -4673,7 +4673,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->junit#junit;4.11 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@490c44d1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@152679e9
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -4682,7 +4682,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2_2.10;2.1.1 [test->default(compile)]
 [info] Resolving org.specs2#specs2_2.10;2.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27188b84
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56e2d889
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2_2.10;2.1.1
 [debug] 	local: revision in cache: org.specs2#specs2_2.10;2.1.1
 [debug] 	found org.specs2#specs2_2.10;2.1.1 in sbt-chain
@@ -4691,7 +4691,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.specs2#specs2_2.10;2.1.1 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.10;7.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e7b25e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1768c2b4
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.2
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.2
 [debug] 	found org.scalaz#scalaz-core_2.10;7.0.2 in sbt-chain
@@ -4700,7 +4700,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.10;7.0.2 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.2 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.10;7.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@337c57db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3835121c
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.2
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.2
 [debug] 	found org.scalaz#scalaz-concurrent_2.10;7.0.2 in sbt-chain
@@ -4709,7 +4709,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.10;7.0.2 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.2 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.10;7.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78b04f5e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3551000c
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.2
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.2
 [debug] 	found org.scalaz#scalaz-effect_2.10;7.0.2 in sbt-chain
@@ -4718,7 +4718,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.10;7.0.2 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d8e3803
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2aceb4eb
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.10
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.10
 [debug] 	found com.novocode#junit-interface;0.10 in sbt-chain
@@ -4727,7 +4727,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->com.novocode#junit-interface;0.10 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.8.0 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-festassert;0.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58d84ac7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f3006af
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-festassert;0.8.0
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-festassert;0.8.0
 [debug] 	found org.fluentlenium#fluentlenium-festassert;0.8.0 in sbt-chain
@@ -4736,7 +4736,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.8.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.8.0 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.8.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fc3d0e2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2449c5f6
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.8.0
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.8.0
 [debug] 	found org.fluentlenium#fluentlenium-core;0.8.0 in sbt-chain
@@ -4745,7 +4745,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.8.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@373bd68a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70c95df9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.32.0 in sbt-chain
@@ -4754,7 +4754,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-android-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5327fcfd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@98c4aa
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-android-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-android-driver;2.32.0 in sbt-chain
@@ -4763,7 +4763,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cbc2197
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f5986d0
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.32.0 in sbt-chain
@@ -4772,7 +4772,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@633914ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a9bbf3b
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -4781,7 +4781,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.json#json;20080701 [test->default(compile)]
 [info] Resolving org.json#json;20080701 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46a48cf8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@320dd63e
 [debug] sbt-chain: module revision found in cache: org.json#json;20080701
 [debug] 	local: revision in cache: org.json#json;20080701
 [debug] 	found org.json#json;20080701 in sbt-chain
@@ -4790,7 +4790,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.json#json;20080701 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d9df7b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b2668ae
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.32.0 in sbt-chain
@@ -4799,7 +4799,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29fd238d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51b32056
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -4808,7 +4808,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f27b5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@194e1ff3
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -4817,7 +4817,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61cf14cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7226fc23
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -4826,7 +4826,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c63669
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f9ffbcf
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 in sbt-chain
@@ -4835,7 +4835,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e4a2b04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7df276b4
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 in sbt-chain
@@ -4844,7 +4844,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.12 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@686e7ce0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f96ca6
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.12
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.12
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.12 in sbt-chain
@@ -4853,7 +4853,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.12 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6734b3c2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6960c614
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -4862,7 +4862,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a4a9229
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e418f6b
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -4871,7 +4871,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.2.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@706c9d08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53611b29
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.2.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.2.3
 [debug] 	found org.apache.httpcomponents#httpmime;4.2.3 in sbt-chain
@@ -4880,7 +4880,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.2.3 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.12 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@586693d6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b86a968
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.12
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.12
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.12 in sbt-chain
@@ -4889,7 +4889,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.12 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.18 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.18 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e5e92dc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6e673340
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.18
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.18
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.18 in sbt-chain
@@ -4898,7 +4898,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.18 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.9 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48a5b11c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7209391e
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.9
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.9
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.9 in sbt-chain
@@ -4907,7 +4907,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.9 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62d31e7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34afe859
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -4916,7 +4916,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8d453b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4647a056
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.2
 [debug] 	local: revision in cache: commons-io#commons-io;2.2
 [debug] 	found commons-io#commons-io;2.2 in sbt-chain
@@ -4925,7 +4925,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c567e4f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35bd6d79
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.9.v20130131
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.9.v20130131
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 in sbt-chain
@@ -4934,7 +4934,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.9.v20130131 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.9.v20130131 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@dd3b29e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40144ba5
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.9.v20130131
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.9.v20130131
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.9.v20130131 in sbt-chain
@@ -4943,7 +4943,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.9.v20130131 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.9.v20130131 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.9.v20130131 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@588760b6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65d138b9
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.9.v20130131
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.9.v20130131
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.9.v20130131 in sbt-chain
@@ -4952,7 +4952,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.9.v20130131 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.9.v20130131 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.9.v20130131 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17552748
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54eeeb8a
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.9.v20130131
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.9.v20130131
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.9.v20130131 in sbt-chain
@@ -4961,7 +4961,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.9.v20130131 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35005182
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c4f95a0
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 in sbt-chain
@@ -4970,7 +4970,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7745a1e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b5945d9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.32.0 in sbt-chain
@@ -4979,7 +4979,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29208cee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2083e9e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 in sbt-chain
@@ -4988,7 +4988,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51bf9096
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55bf86ad
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.32.0 in sbt-chain
@@ -4997,7 +4997,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d6b298a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@eae47a5
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -5006,7 +5006,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.32.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.32.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16999be8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5905bfb9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.32.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.32.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.32.0 in sbt-chain
@@ -5015,7 +5015,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.32.0 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->default(compile)]
 [info] Resolving org.easytesting#fest-assert;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b8037a7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2e932dd
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-assert;1.4
 [debug] 	local: revision in cache: org.easytesting#fest-assert;1.4
 [debug] 	found org.easytesting#fest-assert;1.4 in sbt-chain
@@ -5024,7 +5024,7 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->default(compile)]
 [info] Resolving org.easytesting#fest-util;1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30a2bf92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@567f2d2
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-util;1.1.6
 [debug] 	local: revision in cache: org.easytesting#fest-util;1.1.6
 [debug] 	found org.easytesting#fest-util;1.1.6 in sbt-chain
@@ -11426,6 +11426,15 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-tree;4.1 [docs->runtime]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-tree;4.1 [docs->compile]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-tree;4.1 [docs->master]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-analysis;4.1 [docs->default(compile)]
+[info] Resolving org.ow2.asm#asm-analysis;4.1 ...
+[debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-analysis;4.1 {docs=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-analysis;4.1
+[debug] 	local: revision in cache: org.ow2.asm#asm-analysis;4.1
+[debug] 	found org.ow2.asm#asm-analysis;4.1 in sbt-chain
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-analysis;4.1 [docs->runtime]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-analysis;4.1 [docs->compile]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-analysis;4.1 [docs->master]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.ow2.asm#asm-util;4.1 [docs->default(compile)]
 [info] Resolving org.ow2.asm#asm-util;4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-util;4.1 {docs=[default(compile)]}
@@ -11456,6 +11465,33 @@
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.3 [scala-tool->runtime]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.3 [scala-tool->compile]
 [debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.3
+[debug] 	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#jline;2.10.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#jline;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#jline;2.10.3
+[debug] 	found org.scala-lang#jline;2.10.3 in sbt-chain
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#jline;2.10.3 [scala-tool->runtime]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#jline;2.10.3 [scala-tool->compile]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.scala-lang#jline;2.10.3 [scala-tool->master]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	local: revision in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile]
+[debug] == resolving dependencies bigbob#bigbob$sources_2.10;1.0-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\bigbob\bigbob$sources_2.10\1.0-SNAPSHOT\resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar
@@ -11608,8 +11644,8 @@
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-devicefarm;1.11.109!aws-java-sdk-devicefarm.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-elasticsearch;1.11.109!aws-java-sdk-elasticsearch.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-elasticsearch;1.11.109!aws-java-sdk-elasticsearch.jar
-[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-waf;1.11.109!aws-java-sdk-waf.jar
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-waf;1.11.109!aws-java-sdk-waf.jar(src)
+[debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-waf;1.11.109!aws-java-sdk-waf.jar
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109!aws-java-sdk-marketplacecommerceanalytics.jar
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-marketplacecommerceanalytics;1.11.109!aws-java-sdk-marketplacecommerceanalytics.jar(src)
 [debug] 	[NOT REQUIRED] com.amazonaws#aws-java-sdk-inspector;1.11.109!aws-java-sdk-inspector.jar(src)
@@ -11878,9 +11914,13 @@
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
-[debug] :: resolution report :: resolve 8326ms :: artifacts dl 844ms
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
+[debug] :: resolution report :: resolve 3392ms :: artifacts dl 301ms
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT compile produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-compile.xml
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT runtime produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-runtime.xml
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT test produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-test.xml
@@ -11894,4 +11934,4 @@
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT docs produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-docs.xml
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT pom produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-pom.xml
 [debug] 	report for bigbob#bigbob$sources_2.10;1.0-SNAPSHOT scala-tool produced in C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\resolution-cache\reports\bigbob-bigbob$sources_2.10-scala-tool.xml
-[debug] 	resolve done (8326ms resolve - 844ms download)
+[debug] 	resolve done (3392ms resolve - 301ms download)

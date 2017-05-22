@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="docs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170520031242"/>
+		date="20170521150211"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-docs_2.10">
 			<revision name="2.2.6" status="release" pubdate="20150422000248" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
@@ -32,7 +32,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120613072206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+			<revision name="2.4" status="release" pubdate="20120613072206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
 				<metadata-artifact status="no" details="" size="8534" time="0" location="C:\Users\vshir\.ivy2\cache\commons-io\commons-io\ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="docs" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -67,12 +67,23 @@
 			</revision>
 		</module>
 		<module organisation="org.ow2.asm" name="asm-util">
-			<revision name="4.1" status="release" pubdate="20121015003900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+			<revision name="4.1" status="release" pubdate="20121015003900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
 				<metadata-artifact status="no" details="" size="4420" time="0" location="C:\Users\vshir\.ivy2\cache\org.ow2.asm\asm-util\ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="docs" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="C:\Users\vshir\.ivy2\cache\org.ow2.asm\asm-util\srcs\asm-util-4.1-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="4.1" status="release" pubdate="20121015003804" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+				<metadata-artifact status="no" details="" size="4428" time="0" location="C:\Users\vshir\.ivy2\cache\org.ow2.asm\asm-analysis\ivy-4.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom"/>
+				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="docs" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="983980" time="0" location="C:\Users\vshir\.ivy2\cache\org.ow2.asm\asm-analysis\srcs\asm-analysis-4.1-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -159,7 +170,7 @@
 		</module>
 		<module organisation="oauth.signpost" name="signpost-commonshttp4">
 			<revision name="1.2.1.2" status="release" pubdate="20120226171621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
-				<metadata-artifact status="no" details="" size="3752" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="3837" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="docs" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="signpost-commonshttp4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4178" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\srcs\signpost-commonshttp4-1.2.1.2-sources.jar">

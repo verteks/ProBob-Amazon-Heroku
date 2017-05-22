@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170520031242"/>
+		date="20170521150211"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-cache_2.10">
 			<revision name="2.2.6" status="release" pubdate="20150422000241" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="158">
@@ -201,7 +201,7 @@
 		</module>
 		<module organisation="org.hibernate" name="hibernate-validator">
 			<revision name="5.0.1.Final" status="release" pubdate="20130501044625" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="144">
-				<metadata-artifact status="no" details="" size="23950" time="0" location="C:\Users\vshir\.ivy2\cache\org.hibernate\hibernate-validator\ivy-5.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.0.1.Final/hibernate-validator-5.0.1.Final.pom"/>
+				<metadata-artifact status="no" details="" size="23952" time="0" location="C:\Users\vshir\.ivy2\cache\org.hibernate\hibernate-validator\ivy-5.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/hibernate/hibernate-validator/5.0.1.Final/hibernate-validator-5.0.1.Final.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="test, compile, runtime" rev="5.0.1.Final" rev-constraint-default="5.0.1.Final" rev-constraint-dynamic="5.0.1.Final" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="hibernate-validator" type="jar" ext="jar" status="no" details="" size="572935" time="0" location="C:\Users\vshir\.ivy2\cache\org.hibernate\hibernate-validator\jars\hibernate-validator-5.0.1.Final.jar">
@@ -894,7 +894,7 @@
 		</module>
 		<module organisation="oauth.signpost" name="signpost-commonshttp4">
 			<revision name="1.2.1.2" status="release" pubdate="20120226171621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="135">
-				<metadata-artifact status="no" details="" size="3752" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom"/>
+				<metadata-artifact status="no" details="" size="3837" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="test, compile, runtime" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="signpost-commonshttp4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4178" time="0" location="C:\Users\vshir\.ivy2\cache\oauth.signpost\signpost-commonshttp4\srcs\signpost-commonshttp4-1.2.1.2-sources.jar">
@@ -1803,11 +1803,11 @@
 				<metadata-artifact status="no" details="" size="5067" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\ivy-1.11.109.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-waf/1.11.109/aws-java-sdk-waf-1.11.109.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="test, compile, runtime" rev="1.11.109" rev-constraint-default="1.11.109" rev-constraint-dynamic="1.11.109" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="aws-java-sdk-waf" type="jar" ext="jar" status="no" details="" size="968624" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.11.109.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-waf/1.11.109/aws-java-sdk-waf-1.11.109.jar"/>
-					</artifact>
 					<artifact name="aws-java-sdk-waf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="839998" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\srcs\aws-java-sdk-waf-1.11.109-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-waf/1.11.109/aws-java-sdk-waf-1.11.109-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-waf" type="jar" ext="jar" status="no" details="" size="968624" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-waf\jars\aws-java-sdk-waf-1.11.109.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-waf/1.11.109/aws-java-sdk-waf-1.11.109.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -2153,11 +2153,11 @@
 				<metadata-artifact status="no" details="" size="5101" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\ivy-1.11.109.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.109/aws-java-sdk-directconnect-1.11.109.pom"/>
 				<caller organisation="bigbob" name="bigbob$sources_2.10" conf="test, compile, runtime" rev="1.11.109" rev-constraint-default="1.11.109" rev-constraint-dynamic="1.11.109" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="aws-java-sdk-directconnect" type="jar" ext="jar" status="no" details="" size="530586" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.11.109.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.109/aws-java-sdk-directconnect-1.11.109.jar"/>
-					</artifact>
 					<artifact name="aws-java-sdk-directconnect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="438108" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\srcs\aws-java-sdk-directconnect-1.11.109-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.109/aws-java-sdk-directconnect-1.11.109-sources.jar"/>
+					</artifact>
+					<artifact name="aws-java-sdk-directconnect" type="jar" ext="jar" status="no" details="" size="530586" time="0" location="C:\Users\vshir\.ivy2\cache\com.amazonaws\aws-java-sdk-directconnect\jars\aws-java-sdk-directconnect-1.11.109.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.109/aws-java-sdk-directconnect-1.11.109.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

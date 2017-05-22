@@ -4,23 +4,20 @@ import com.fasterxml.jackson.databind.JsonNode;
 import models.S3File;
 import play.Logger;
 import play.Routes;
-import play.api.Play;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
 import plugins.S3Plugin;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
 import java.io.UnsupportedEncodingException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.List;
+import java.util.TimeZone;
 import java.util.UUID;
-
-
-import play.Application;
 
 import static play.libs.Json.toJson;
 
@@ -33,6 +30,7 @@ public class AmazonUpload extends Controller{
     private static final String AWS_SECRET_KEY = "aws.secret.key";
     private static final String AWS_S3_BUCKET = "aws.s3.bucket";
     private UUID id;
+    private static DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm'Z'");
 
 
     public static Result index() {
@@ -47,18 +45,23 @@ public class AmazonUpload extends Controller{
         String acl = "public-read";
         String success_action_redirect = "localhost:9000/uplode";
         Logger.info(accessKey);
-        String policy_document = "{ \"conditions\": [ \n" +
-                "    {\"bucket\": \""+s3Bucket+"\"}, \n" +
-                "    [\"starts-with\", \""+id.toString()+"\", \"uploads/\"],\n" +
-                "    {\"acl\": \"public-read\"},\n" +
-                "    {\"success_action_redirect\": \"http://localhost:9000/uplode\"},\n" +
-                "    [\"starts-with\", \"$Content-Type\", \"\"],\n" +
-                "    [\"content-length-range\", 0, 1048576]\n" +
+        TimeZone tz = TimeZone.getTimeZone("UTC");
+        df.setTimeZone(tz);
+
+        String nowAsISO = df.format(System.currentTimeMillis());
+        Logger.info(nowAsISO);
+        String policy_document = "{ 'expiration': '"+nowAsISO+"',\n" +
+                "   'conditions': [ \n" +
+                "    {'bucket': '"+s3Bucket+"'}, \n" +
+                "    ['starts-with','"+id.toString()+"', '"+id.toString()+"'],\n" +
+                "    {'acl': 'public-read'},\n" +
+                "    {'success_action_redirect': 'http://localhost:9000/uplode'},\n" +
+                "    ['starts-with', '$Content-Type', ''],\n" +
                 "  ]\n" +
                 "}";
         String policy = DatatypeConverter.printBase64Binary(policy_document.getBytes("UTF-8")).replaceAll("\n","").replaceAll("\r","");
         String signature = S3Plugin.getHMac(policy);
-        return ok(views.html.upload.index.render("https://"+s3Bucket+".s3.amazonaws.com",id.toString(),accessKey,acl,success_action_redirect,policy.toString(),signature.toString()));
+        return ok(views.html.upload.index.render("https://"+s3Bucket+".s3.amazonaws.com",id.toString()+"/",accessKey,acl,success_action_redirect,policy.toString(),signature.toString()));
     }
 
     private static Result errorJsonResult(String errorMessage) {
