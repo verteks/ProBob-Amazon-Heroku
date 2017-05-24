@@ -25,8 +25,8 @@ public class S3File extends Model {
 
     @ManyToOne
     private User user;
-
     private String name;
+    private boolean easyAccessFile;
 
     @Transient
     private File file;
@@ -37,10 +37,18 @@ public class S3File extends Model {
     public User getUser() {return user;}
     public String getBucket() {return bucket;}
 
+    public boolean isEasyAccessFile() {
+        return easyAccessFile;
+    }
+
     public void setName(String name) {this.name = name;}
     public void setBucket(String bucket) {this.bucket = bucket;}
     public void setFile(File file) {this.file = file;}
     public void setUser(User user) {this.user = user;}
+
+    public void setEasyAccessFile(boolean easyAccessFile) {
+        this.easyAccessFile = easyAccessFile;
+    }
 
     public URL getUrl() throws MalformedURLException {
         return new URL("https://s3.amazonaws.com/" + bucket + "/" + getActualFileName());

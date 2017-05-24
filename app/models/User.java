@@ -5,7 +5,6 @@ import play.api.libs.Crypto;
 import play.data.validation.Constraints.Email;
 import play.db.ebean.Model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -14,7 +13,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
-import java.util.UUID;
 
 @Entity
 public class User extends Model {
@@ -23,9 +21,7 @@ public class User extends Model {
      * Email - электронная почта пользователя
      */
     @Id
-    private UUID id;
     @Email
-    @Column(unique=true)
     private String email;
 
     @OneToMany(mappedBy = "user")
@@ -33,26 +29,35 @@ public class User extends Model {
 
     private String passwordHash;
     private String salt;
+    private String easyAccessHash;
+    private String easySalt;
+
+
     public User(String email, String password) {
         this.email = email;
         setPassword(password);
     }
-    public static Finder<String, User> findByEmail = new Finder<String, User>(String.class, User.class);
-    public static Finder<UUID, User> findById = new Finder<UUID, User>(UUID.class, User.class);
-    public static User findByEmail(String email) {
-        //return findByEmail.ref(email);
-        return new User("asdasd@asd","asd");
-    }
-    public static User findById(UUID id) {
-        return findById.ref(id);
-    }
+    public static Finder<String, User> find = new Finder<String, User>(String.class, User.class);
     public List<S3File> getList() {
         return list;
     }
+    public List<S3File> getEasyAccessList() {
+        List<S3File> easyList = null;
+        for (S3File one:list) {
+            if (one.isEasyAccessFile()) {
+                easyList.add(one);
+            }
+
+        }
+        return easyList;
+    }
     public String getEmail() { return email; }
-    public UUID getId() { return id; }
 
     private String getHash(String s) {
+        s = SHA256(s);
+        return s;
+    }
+    public static String getEasyAccessHash (String s) {
         s = SHA256(s);
         return s;
     }
@@ -61,6 +66,11 @@ public class User extends Model {
         salt=genSalt();
         passwordHash=getHash(password+salt);
     }
+    public void setEasyAccessHash(String easyAccess) {
+        //easySalt=genEasySalt();
+        easyAccessHash=getEasyAccessHash(easyAccess+"");
+    }
+
 
 
     private boolean checkPassword(String password) {
@@ -80,7 +90,7 @@ public class User extends Model {
 
     public static String authenticate(String email, String password) {
         if (email.isEmpty() || password.isEmpty()){return "Поля не заполнены";}
-        User us = User.findByEmail(email);
+        User us = User.find.byId(email);
         if (us == null){
             return "Пользователь с данным email не зарегистрирован";
         }else {
@@ -93,8 +103,16 @@ public class User extends Model {
     }
 
     public static boolean vailable(String email) {
-        User us = User.findByEmail(email);
+        User us = User.find.byId(email);
         if (us != null){
+            return false;
+        }else {
+            return true;
+        }
+    }
+    public static boolean vailableEasy(String easy){
+        List<User> us = User.find.where().like("easyAccessHash",getEasyAccessHash(easy)).findList();
+        if (us.size() !=0){
             return false;
         }else {
             return true;
@@ -117,6 +135,12 @@ public class User extends Model {
     }
 
     public static String genSalt(){
+        final Random r = new SecureRandom();
+        byte[] salt = new byte[32];
+        r.nextBytes(salt);
+        return Base64.encodeBase64String(salt);
+    }
+    public static String genEasySalt(){
         final Random r = new SecureRandom();
         byte[] salt = new byte[32];
         r.nextBytes(salt);

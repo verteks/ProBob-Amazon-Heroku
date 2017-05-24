@@ -1,13 +1,15 @@
 @(s3Files: List[models.S3File])
 
 
-    @main("Регистрация") {
+    @main("Upload") {
 
     <h1>Upload a file:</h1>
     
     @helper.form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
         <input type="file" name="upload">
         <input type="submit">
+        easy access
+        <input type="checkbox" name ="easyAccessFile">
     }
 
     <h1>Uploads:</h1>

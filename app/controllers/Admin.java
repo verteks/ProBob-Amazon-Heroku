@@ -7,7 +7,7 @@ import play.mvc.Controller;
 import play.mvc.Result;
 import play.mvc.Security;
 import util.Secured;
-import views.html.profile;
+import views.html.*;
 
 /**
  * Закрытая часть сайта
@@ -26,23 +26,6 @@ public class Admin extends Controller {
         Form<ChangePassword> cPForm = Form.form(ChangePassword.class);
         return ok(profile.render(cPForm));
     }
-
-    /**
-     * Обработка формы смены пароля.
-     *
-     * Валидация проводится стандартными средствами
-     * @see ChangePassword#validate()
-     * Валидация проверяет соответствие текущего пароля с залогиненным текущим пользователем.
-     * Обращаем ваше внимание, что email в форме отсутствует для безопасности и должен браться из сессии.
-     *
-     * В случае успеха валидации производится изменение пароля пользователя с помощью метода
-     * @see User#setPassword(String)
-     *
-     * @return Страницу профиля. В случае успешной смены пароля выводится success-сообщение. В случае ошибки валидации формы, сообщение об ошибке.
-     *
-     * Подсказка: Задать success-сообщение можно с помощью
-     * flash("success", "Пароль успешно изменен");
-     */
     public static Result changePassword() {
         Form<ChangePassword> cPForm = Form.form(ChangePassword.class).bindFromRequest();
         if (cPForm.hasErrors())

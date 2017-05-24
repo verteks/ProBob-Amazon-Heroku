@@ -4,23 +4,22 @@ import models.S3File;
 import play.mvc.Controller;
 import play.mvc.Http;
 import play.mvc.Result;
+import play.mvc.Security;
 import util.Secured;
 import views.html.index;
 
-import java.security.Security;
 import java.util.List;
 
-//@Security.Authenticated(Secured.class)
+@Security.Authenticated(Secured.class)
 public class Application extends Controller {
 
-    public static Result index() {
+    public static Result index1() {
         return redirect(routes.Auth.login());
     }
-    public static Result index1() {
+    public static Result index() {
         List<S3File> uploads = Auth.currentUser().getList();
         return ok(index.render(uploads));
     }
-
     public static Result upload() {
         Http.MultipartFormData body = request().body().asMultipartFormData();
         Http.MultipartFormData.FilePart uploadFilePart = body.getFile("upload");
@@ -29,8 +28,10 @@ public class Application extends Controller {
             s3File.setName(uploadFilePart.getFilename());
             s3File.setFile(uploadFilePart.getFile());
             s3File.setUser(Auth.currentUser());
+            s3File.setEasyAccessFile(true);
+
             s3File.save();
-            return redirect(routes.Application.index1());
+            return redirect(routes.Application.index());
         }
         else {
             return badRequest("File upload error");

@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/conf/routes
-// @HASH:4b5c2a2af6fbde47452ae2ce5872bbf7dbd064d5
-// @DATE:Sat May 20 03:22:21 IRKT 2017
+// @HASH:191a7ed9125b9c5dc1a13562fa1c2dfc96283381
+// @DATE:Thu May 25 02:20:34 IRKT 2017
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -43,18 +43,18 @@ def at(file:String): Call = {
 }
                           
 
-// @LINE:13
 // @LINE:12
+// @LINE:11
 class ReverseAdmin {
     
 
-// @LINE:12
+// @LINE:11
 def profile(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "profile")
 }
                                                 
 
-// @LINE:13
+// @LINE:12
 def changePassword(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "profile/change")
 }
@@ -63,15 +63,15 @@ def changePassword(): Call = {
 }
                           
 
-// @LINE:11
 // @LINE:10
 // @LINE:9
+// @LINE:8
 // @LINE:7
 // @LINE:6
 class ReverseAuth {
     
 
-// @LINE:9
+// @LINE:8
 def auth(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "login")
 }
@@ -83,13 +83,13 @@ def signup(): Call = {
 }
                                                 
 
-// @LINE:10
+// @LINE:9
 def logout(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "logout")
 }
                                                 
 
-// @LINE:11
+// @LINE:10
 def register(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "register")
 }
@@ -104,27 +104,33 @@ def login(): Call = {
 }
                           
 
-// @LINE:15
+// @LINE:16
+class ReverseEasyAccess {
+    
+
+// @LINE:16
+def search(easySearch:String): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "easyAccess/" + implicitly[PathBindable[String]].unbind("easySearch", dynamicString(easySearch)))
+}
+                                                
+    
+}
+                          
+
 // @LINE:14
-// @LINE:8
+// @LINE:13
 class ReverseApplication {
     
 
-// @LINE:15
+// @LINE:14
 def upload(): Call = {
    Call("POST", _prefix)
 }
                                                 
 
-// @LINE:14
-def index1(): Call = {
-   Call("GET", _prefix)
-}
-                                                
-
-// @LINE:8
+// @LINE:13
 def index(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "news")
+   Call("GET", _prefix)
 }
                                                 
     
@@ -134,7 +140,7 @@ def index(): Call = {
 // @LINE:26
 // @LINE:21
 // @LINE:20
-// @LINE:16
+// @LINE:15
 class ReverseAmazonUpload {
     
 
@@ -150,7 +156,7 @@ def upload(): Call = {
 }
                                                 
 
-// @LINE:16
+// @LINE:15
 def index(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "uplode")
 }
@@ -203,12 +209,12 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:13
 // @LINE:12
+// @LINE:11
 class ReverseAdmin {
     
 
-// @LINE:12
+// @LINE:11
 def profile : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Admin.profile",
    """
@@ -219,7 +225,7 @@ def profile : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:13
+// @LINE:12
 def changePassword : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Admin.changePassword",
    """
@@ -233,15 +239,15 @@ def changePassword : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:11
 // @LINE:10
 // @LINE:9
+// @LINE:8
 // @LINE:7
 // @LINE:6
 class ReverseAuth {
     
 
-// @LINE:9
+// @LINE:8
 def auth : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Auth.auth",
    """
@@ -263,7 +269,7 @@ def signup : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:10
+// @LINE:9
 def logout : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Auth.logout",
    """
@@ -274,7 +280,7 @@ def logout : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:11
+// @LINE:10
 def register : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Auth.register",
    """
@@ -299,13 +305,30 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:15
+// @LINE:16
+class ReverseEasyAccess {
+    
+
+// @LINE:16
+def search : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.EasyAccess.search",
+   """
+      function(easySearch) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "easyAccess/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("easySearch", encodeURIComponent(easySearch))})
+      }
+   """
+)
+                        
+    
+}
+              
+
 // @LINE:14
-// @LINE:8
+// @LINE:13
 class ReverseApplication {
     
 
-// @LINE:15
+// @LINE:14
 def upload : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.upload",
    """
@@ -316,23 +339,12 @@ def upload : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:14
-def index1 : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.index1",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + """"})
-      }
-   """
-)
-                        
-
-// @LINE:8
+// @LINE:13
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.index",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "news"})
+      return _wA({method:"GET", url:"""" + _prefix + """"})
       }
    """
 )
@@ -344,7 +356,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 // @LINE:26
 // @LINE:21
 // @LINE:20
-// @LINE:16
+// @LINE:15
 class ReverseAmazonUpload {
     
 
@@ -370,7 +382,7 @@ def upload : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:16
+// @LINE:15
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AmazonUpload.index",
    """
@@ -429,18 +441,18 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
-// @LINE:13
 // @LINE:12
+// @LINE:11
 class ReverseAdmin {
     
 
-// @LINE:12
+// @LINE:11
 def profile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Admin.profile(), HandlerDef(this, "controllers.Admin", "profile", Seq(), "GET", """""", _prefix + """profile""")
 )
                       
 
-// @LINE:13
+// @LINE:12
 def changePassword(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Admin.changePassword(), HandlerDef(this, "controllers.Admin", "changePassword", Seq(), "POST", """""", _prefix + """profile/change""")
 )
@@ -449,15 +461,15 @@ def changePassword(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
-// @LINE:11
 // @LINE:10
 // @LINE:9
+// @LINE:8
 // @LINE:7
 // @LINE:6
 class ReverseAuth {
     
 
-// @LINE:9
+// @LINE:8
 def auth(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Auth.auth(), HandlerDef(this, "controllers.Auth", "auth", Seq(), "POST", """""", _prefix + """login""")
 )
@@ -469,13 +481,13 @@ def signup(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 )
                       
 
-// @LINE:10
+// @LINE:9
 def logout(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Auth.logout(), HandlerDef(this, "controllers.Auth", "logout", Seq(), "GET", """""", _prefix + """logout""")
 )
                       
 
-// @LINE:11
+// @LINE:10
 def register(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Auth.register(), HandlerDef(this, "controllers.Auth", "register", Seq(), "POST", """""", _prefix + """register""")
 )
@@ -490,27 +502,33 @@ def login(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
-// @LINE:15
+// @LINE:16
+class ReverseEasyAccess {
+    
+
+// @LINE:16
+def search(easySearch:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.EasyAccess.search(easySearch), HandlerDef(this, "controllers.EasyAccess", "search", Seq(classOf[String]), "GET", """""", _prefix + """easyAccess/$easySearch<[^/]+>""")
+)
+                      
+    
+}
+                          
+
 // @LINE:14
-// @LINE:8
+// @LINE:13
 class ReverseApplication {
     
 
-// @LINE:15
+// @LINE:14
 def upload(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.upload(), HandlerDef(this, "controllers.Application", "upload", Seq(), "POST", """""", _prefix + """""")
 )
                       
 
-// @LINE:14
-def index1(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.index1(), HandlerDef(this, "controllers.Application", "index1", Seq(), "GET", """""", _prefix + """""")
-)
-                      
-
-// @LINE:8
+// @LINE:13
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.index(), HandlerDef(this, "controllers.Application", "index", Seq(), "GET", """""", _prefix + """news""")
+   controllers.Application.index(), HandlerDef(this, "controllers.Application", "index", Seq(), "GET", """""", _prefix + """""")
 )
                       
     
@@ -520,7 +538,7 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 // @LINE:26
 // @LINE:21
 // @LINE:20
-// @LINE:16
+// @LINE:15
 class ReverseAmazonUpload {
     
 
@@ -536,7 +554,7 @@ def upload(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 )
                       
 
-// @LINE:16
+// @LINE:15
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.AmazonUpload.index(), HandlerDef(this, "controllers.AmazonUpload", "index", Seq(), "GET", """""", _prefix + """uplode""")
 )

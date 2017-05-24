@@ -1,29 +1,32 @@
 package controllers;
 
+import models.EasySearch;
 import models.Login;
 import models.Register;
 import models.User;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.login;
-import views.html.register;
+import views.html.*;
 
 public class Auth extends Controller {
     public static Result login() {
         if (session("email") != null){
             return  redirect(controllers.routes.Application.index());
         }else{
+            Form<EasySearch> easySearchForm = Form.form(EasySearch.class);
             Form<Login> loginForm = Form.form(Login.class);
-            return ok(login.render(loginForm));
+            return ok(login.render(loginForm,easySearchForm));
         }
     }
 
     public static Result auth() {
         Form<Login> loginForm = Form.form(Login.class).bindFromRequest();
+        Form<EasySearch> easySearchForm = Form.form(EasySearch.class);
+
         if (loginForm.hasErrors())
             //форма содержит ошибку и будет выдана пользователю обратно. При ошибки валидации покажутся автоматически засчет form-helper-ов
-            return badRequest(login.render(loginForm));
+            return badRequest(login.render(loginForm,easySearchForm));
         else {
             //Установка ключа email в сессии равной email аутентифицированного пользователя.
             session("email", loginForm.get().email);
@@ -47,16 +50,14 @@ public class Auth extends Controller {
         }
     }
     public static Result register() {
-        play.Logger.info("whatttt");
         Form<Register> registerForm = Form.form(Register.class).bindFromRequest();
-
-
         if (registerForm.hasErrors()){
             flash("error","Ошибка регистрации");
             return badRequest(register.render(registerForm));
         }else{
             Register user = registerForm.get();
             User us = new User(user.email,user.password);
+            us.setEasyAccessHash(user.easyAccess);
             us.save();
             //Установка ключа email в сессии равной email аутентифицированного пользователя.
             session("email", user.email);
@@ -72,6 +73,6 @@ public class Auth extends Controller {
     }
 
     public static User currentUser(){
-        return User.findByEmail(currentUserEmail());
+        return User.find.byId(currentUserEmail());
     }
 }

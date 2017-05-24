@@ -29,22 +29,24 @@ object index extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,
 Seq[Any](format.raw/*1.32*/("""
 
 
-    """),_display_(Seq[Any](/*4.6*/main("Регистрация")/*4.25*/ {_display_(Seq[Any](format.raw/*4.27*/("""
+    """),_display_(Seq[Any](/*4.6*/main("Upload")/*4.20*/ {_display_(Seq[Any](format.raw/*4.22*/("""
 
     <h1>Upload a file:</h1>
     
     """),_display_(Seq[Any](/*8.6*/helper/*8.12*/.form(action = routes.Application.upload, 'enctype -> "multipart/form-data")/*8.88*/ {_display_(Seq[Any](format.raw/*8.90*/("""
         <input type="file" name="upload">
         <input type="submit">
-    """)))})),format.raw/*11.6*/("""
+        easy access
+        <input type="checkbox" name ="easyAccessFile">
+    """)))})),format.raw/*13.6*/("""
 
     <h1>Uploads:</h1>
     <ul>
-    """),_display_(Seq[Any](/*15.6*/for(s3file <- s3Files) yield /*15.28*/ {_display_(Seq[Any](format.raw/*15.30*/("""
-        <li><a href=""""),_display_(Seq[Any](/*16.23*/s3file/*16.29*/.getUrl())),format.raw/*16.38*/("""">"""),_display_(Seq[Any](/*16.41*/s3file/*16.47*/.getName())),format.raw/*16.57*/("""</a></li>
-    """)))})),format.raw/*17.6*/("""
-    </ul>
+    """),_display_(Seq[Any](/*17.6*/for(s3file <- s3Files) yield /*17.28*/ {_display_(Seq[Any](format.raw/*17.30*/("""
+        <li><a href=""""),_display_(Seq[Any](/*18.23*/s3file/*18.29*/.getUrl())),format.raw/*18.38*/("""">"""),_display_(Seq[Any](/*18.41*/s3file/*18.47*/.getName())),format.raw/*18.57*/("""</a></li>
     """)))})),format.raw/*19.6*/("""
+    </ul>
+    """)))})),format.raw/*21.6*/("""
 """))}
     }
     
@@ -57,11 +59,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat May 20 03:22:23 IRKT 2017
+                    DATE: Thu May 25 00:57:47 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/index.scala.html
-                    HASH: 02df4ec420ec83b8f746eea2680459a28cfab1af
-                    MATRIX: 787->1|911->31|956->42|983->61|1022->63|1100->107|1114->113|1198->189|1237->191|1349->272|1426->314|1464->336|1504->338|1564->362|1579->368|1610->377|1649->380|1664->386|1696->396|1743->412|1792->430
-                    LINES: 26->1|29->1|32->4|32->4|32->4|36->8|36->8|36->8|36->8|39->11|43->15|43->15|43->15|44->16|44->16|44->16|44->16|44->16|44->16|45->17|47->19
+                    HASH: 031d31fc1a4c1b342e31b5b2388f77ef2203c57a
+                    MATRIX: 787->1|911->31|956->42|978->56|1017->58|1095->102|1109->108|1193->184|1232->186|1421->344|1498->386|1536->408|1576->410|1636->434|1651->440|1682->449|1721->452|1736->458|1768->468|1815->484|1864->502
+                    LINES: 26->1|29->1|32->4|32->4|32->4|36->8|36->8|36->8|36->8|41->13|45->17|45->17|45->17|46->18|46->18|46->18|46->18|46->18|46->18|47->19|49->21
                     -- GENERATED --
                 */
             

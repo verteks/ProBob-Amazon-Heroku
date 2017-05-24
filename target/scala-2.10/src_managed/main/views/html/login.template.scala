@@ -20,13 +20,13 @@ import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 import views.html._
 /**/
-object login extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template1[Form[Login],play.api.templates.HtmlFormat.Appendable] {
+object login extends BaseScalaTemplate[play.api.templates.HtmlFormat.Appendable,Format[play.api.templates.HtmlFormat.Appendable]](play.api.templates.HtmlFormat) with play.api.templates.Template2[Form[Login],Form[EasySearch],play.api.templates.HtmlFormat.Appendable] {
 
     /**/
-    def apply/*1.2*/(loginForm: Form[Login]):play.api.templates.HtmlFormat.Appendable = {
+    def apply/*1.2*/(loginForm: Form[Login], easySearchForm: Form[EasySearch]):play.api.templates.HtmlFormat.Appendable = {
         _display_ {
 
-Seq[Any](format.raw/*1.26*/("""
+Seq[Any](format.raw/*1.60*/("""
     """),_display_(Seq[Any](/*2.6*/main("Вход")/*2.18*/ {_display_(Seq[Any](format.raw/*2.20*/("""
         """),_display_(Seq[Any](/*3.10*/if(loginForm.hasErrors)/*3.33*/ {_display_(Seq[Any](format.raw/*3.35*/("""
             <div class="alert alert-danger">
@@ -52,24 +52,30 @@ Seq[Any](format.raw/*1.26*/("""
 
             </div>
         """)))})),format.raw/*26.10*/("""
-    """)))})),format.raw/*27.6*/("""
+        """),_display_(Seq[Any](/*27.10*/helper/*27.16*/.form(routes.EasyAccess.search(easySearch), 'method -> "GET")/*27.77*/ {_display_(Seq[Any](format.raw/*27.79*/("""
+            <h2 class="form-signin-heading">Easy Access</h2>
+            <input type="text" name="easySearch">
+            <button type="submit" class="btn btn-primary">Go Easy</button>
+        """)))})),format.raw/*31.10*/("""
+
+    """)))})),format.raw/*33.6*/("""
 """))}
     }
     
-    def render(loginForm:Form[Login]): play.api.templates.HtmlFormat.Appendable = apply(loginForm)
+    def render(loginForm:Form[Login],easySearchForm:Form[EasySearch]): play.api.templates.HtmlFormat.Appendable = apply(loginForm,easySearchForm)
     
-    def f:((Form[Login]) => play.api.templates.HtmlFormat.Appendable) = (loginForm) => apply(loginForm)
+    def f:((Form[Login],Form[EasySearch]) => play.api.templates.HtmlFormat.Appendable) = (loginForm,easySearchForm) => apply(loginForm,easySearchForm)
     
     def ref: this.type = this
 
 }
                 /*
                     -- GENERATED --
-                    DATE: Sat May 20 03:22:24 IRKT 2017
+                    DATE: Thu May 25 02:22:51 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/login.scala.html
-                    HASH: 9725cf83ca5055d1f7ba52fa0d216a13b88842ea
-                    MATRIX: 779->1|897->25|938->32|958->44|997->46|1043->57|1074->80|1113->82|1274->208|1313->239|1352->241|1410->264|1462->301|1501->303|1563->330|1595->347|1634->349|1703->383|1714->386|1756->407|1819->438|1874->461|1925->480|1988->511|2035->522|2050->528|2084->553|2124->555|2221->707|2272->722|2345->773|2396->788|2477->847|2663->997|2678->1003|2714->1017|2827->1098|2865->1105
-                    LINES: 26->1|29->1|30->2|30->2|30->2|31->3|31->3|31->3|34->6|34->6|34->6|35->7|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|39->11|40->12|42->14|43->15|43->15|43->15|43->15|45->17|46->18|46->18|47->19|47->19|51->23|51->23|51->23|54->26|55->27
+                    HASH: e01008428cfc56073d684af2511e55bff152335b
+                    MATRIX: 796->1|948->59|989->66|1009->78|1048->80|1094->91|1125->114|1164->116|1325->242|1364->273|1403->275|1461->298|1513->335|1552->337|1614->364|1646->381|1685->383|1754->417|1765->420|1807->441|1870->472|1925->495|1976->514|2039->545|2086->556|2101->562|2135->587|2175->589|2272->741|2323->756|2396->807|2447->822|2528->881|2714->1031|2729->1037|2765->1051|2878->1132|2925->1143|2940->1149|3010->1210|3050->1212|3282->1412|3322->1421
+                    LINES: 26->1|29->1|30->2|30->2|30->2|31->3|31->3|31->3|34->6|34->6|34->6|35->7|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|39->11|40->12|42->14|43->15|43->15|43->15|43->15|45->17|46->18|46->18|47->19|47->19|51->23|51->23|51->23|54->26|55->27|55->27|55->27|55->27|59->31|61->33
                     -- GENERATED --
                 */
             

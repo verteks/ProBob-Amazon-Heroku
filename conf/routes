@@ -5,15 +5,15 @@
 # Home page
 GET		/login  		controllers.Auth.login()
 GET		/register		controllers.Auth.signup()
-GET		/news			controllers.Application.index()
 POST	/login			controllers.Auth.auth()
 GET	    /logout			controllers.Auth.logout()
 POST	/register		controllers.Auth.register()
 GET     /profile        controllers.Admin.profile()
 POST    /profile/change controllers.Admin.changePassword()
-GET     /               controllers.Application.index1()
+GET     /               controllers.Application.index()
 POST    /               controllers.Application.upload()
 GET     /uplode         controllers.AmazonUpload.index()
+GET    /easyAccess/:easySearch     controllers.EasyAccess.search(easySearch)
 
 
 #API

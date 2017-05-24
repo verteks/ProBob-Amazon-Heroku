@@ -16,6 +16,7 @@
         @helper.form(routes.Auth.register()) {
             @input(regForm("email"), "Email", 'type -> "email")
             @input(regForm("password"), "Пароль", 'type -> "password")
+            @input(regForm("easyAccess"),"easy access",'type -> "text")
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
             </div>

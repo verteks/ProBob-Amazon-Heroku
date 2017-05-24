@@ -1,4 +1,4 @@
-@(loginForm: Form[Login])
+@(loginForm: Form[Login], easySearchForm: Form[EasySearch])
     @main("Вход") {
         @if(loginForm.hasErrors) {
             <div class="alert alert-danger">
@@ -24,4 +24,10 @@
 
             </div>
         }
+        @helper.form(routes.EasyAccess.search(), 'method -> "GET") {
+            <h2 class="form-signin-heading">Easy Access</h2>
+            <input type="text" name="easySearch">
+            <button type="submit" class="btn btn-primary">Go Easy</button>
+        }
+
     }
