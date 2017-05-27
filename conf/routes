@@ -13,7 +13,7 @@ POST    /profile/change controllers.Admin.changePassword()
 GET     /               controllers.Application.index()
 POST    /               controllers.Application.upload()
 GET     /uplode         controllers.AmazonUpload.index()
-GET    /easyAccess/:easySearch     controllers.EasyAccess.search(easySearch)
+GET    /easyAccess    controllers.EasyAccess.search()
 
 
 #API

@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/conf/routes
-// @HASH:191a7ed9125b9c5dc1a13562fa1c2dfc96283381
-// @DATE:Thu May 25 02:20:34 IRKT 2017
+// @HASH:5f22ed5f3e85c935eda40d379e3747b1e7308509
+// @DATE:Fri May 26 11:32:19 IRKT 2017
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -109,8 +109,8 @@ class ReverseEasyAccess {
     
 
 // @LINE:16
-def search(easySearch:String): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "easyAccess/" + implicitly[PathBindable[String]].unbind("easySearch", dynamicString(easySearch)))
+def search(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "easyAccess")
 }
                                                 
     
@@ -313,8 +313,8 @@ class ReverseEasyAccess {
 def search : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.EasyAccess.search",
    """
-      function(easySearch) {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "easyAccess/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("easySearch", encodeURIComponent(easySearch))})
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "easyAccess"})
       }
    """
 )
@@ -507,8 +507,8 @@ class ReverseEasyAccess {
     
 
 // @LINE:16
-def search(easySearch:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.EasyAccess.search(easySearch), HandlerDef(this, "controllers.EasyAccess", "search", Seq(classOf[String]), "GET", """""", _prefix + """easyAccess/$easySearch<[^/]+>""")
+def search(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.EasyAccess.search(), HandlerDef(this, "controllers.EasyAccess", "search", Seq(), "GET", """""", _prefix + """easyAccess""")
 )
                       
     
