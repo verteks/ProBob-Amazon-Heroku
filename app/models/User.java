@@ -11,6 +11,7 @@ import javax.persistence.OneToMany;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -42,7 +43,7 @@ public class User extends Model {
         return list;
     }
     public List<S3File> getEasyAccessList() {
-        List<S3File> easyList = null;
+        List<S3File> easyList = new ArrayList<S3File>();
         for (S3File one:list) {
             if (one.isEasyAccessFile()) {
                 easyList.add(one);

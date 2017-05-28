@@ -1,9 +1,7 @@
 @(s3Files: List[models.S3File])
 
-
     @main("Easy Access") {
 
-    <h1>Upload a file:</h1>
     <h1>Uploads:</h1>
     <ul>
     @for(s3file <- s3Files) {

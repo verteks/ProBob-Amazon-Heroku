@@ -28,17 +28,15 @@ object easyAccessList extends BaseScalaTemplate[play.api.templates.HtmlFormat.Ap
 
 Seq[Any](format.raw/*1.32*/("""
 
+    """),_display_(Seq[Any](/*3.6*/main("Easy Access")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
 
-    """),_display_(Seq[Any](/*4.6*/main("Easy Access")/*4.25*/ {_display_(Seq[Any](format.raw/*4.27*/("""
-
-    <h1>Upload a file:</h1>
     <h1>Uploads:</h1>
     <ul>
-    """),_display_(Seq[Any](/*9.6*/for(s3file <- s3Files) yield /*9.28*/ {_display_(Seq[Any](format.raw/*9.30*/("""
-        <li><a href=""""),_display_(Seq[Any](/*10.23*/s3file/*10.29*/.getUrl())),format.raw/*10.38*/("""">"""),_display_(Seq[Any](/*10.41*/s3file/*10.47*/.getName())),format.raw/*10.57*/("""</a></li>
-    """)))})),format.raw/*11.6*/("""
+    """),_display_(Seq[Any](/*7.6*/for(s3file <- s3Files) yield /*7.28*/ {_display_(Seq[Any](format.raw/*7.30*/("""
+        <li><a href=""""),_display_(Seq[Any](/*8.23*/s3file/*8.29*/.getUrl())),format.raw/*8.38*/("""">"""),_display_(Seq[Any](/*8.41*/s3file/*8.47*/.getName())),format.raw/*8.57*/("""</a></li>
+    """)))})),format.raw/*9.6*/("""
     </ul>
-    """)))})),format.raw/*13.6*/("""
+    """)))})),format.raw/*11.6*/("""
 """))}
     }
     
@@ -51,11 +49,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri May 26 11:32:19 IRKT 2017
+                    DATE: Sun May 28 03:32:03 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/easyAccessList.scala.html
-                    HASH: 3ee01bce72f0e8ac0930e445e0341634b478c03f
-                    MATRIX: 796->1|920->31|965->42|992->61|1031->63|1136->134|1173->156|1212->158|1272->182|1287->188|1318->197|1357->200|1372->206|1404->216|1451->232|1500->250
-                    LINES: 26->1|29->1|32->4|32->4|32->4|37->9|37->9|37->9|38->10|38->10|38->10|38->10|38->10|38->10|39->11|41->13
+                    HASH: 7af402efb7a5f7b659e552d7fa91f45381e5dc0c
+                    MATRIX: 796->1|920->31|963->40|990->59|1029->61|1105->103|1142->125|1181->127|1240->151|1254->157|1284->166|1322->169|1336->175|1367->185|1413->201|1462->219
+                    LINES: 26->1|29->1|31->3|31->3|31->3|35->7|35->7|35->7|36->8|36->8|36->8|36->8|36->8|36->8|37->9|39->11
                     -- GENERATED --
                 */
             
