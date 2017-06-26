@@ -49,7 +49,7 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jun 26 21:55:14 IRKT 2017
+                    DATE: Mon Jun 26 22:25:07 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/easyAccessList.scala.html
                     HASH: 7af402efb7a5f7b659e552d7fa91f45381e5dc0c
                     MATRIX: 796->1|920->31|963->40|990->59|1029->61|1105->103|1142->125|1181->127|1240->151|1254->157|1284->166|1322->169|1336->175|1367->185|1413->201|1462->219
