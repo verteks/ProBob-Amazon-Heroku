@@ -12,18 +12,18 @@ create table s3file (
   constraint pk_s3file primary key (id))
 ;
 
-create table MyUser (
+create table user (
   email                     varchar(255) not null,
   password_hash             varchar(255),
   salt                      varchar(255),
   easy_access_hash          varchar(255),
   easy_salt                 varchar(255),
-  constraint pk_MyUser primary key (email))
+  constraint pk_user primary key (email))
 ;
 
-create sequence MyUser_seq;
+create sequence user_seq;
 
-alter table s3file add constraint fk_s3file_user_1 foreign key (user_email) references MyUser (email) on delete restrict on update restrict;
+alter table s3file add constraint fk_s3file_user_1 foreign key (user_email) references user (email) on delete restrict on update restrict;
 create index ix_s3file_user_1 on s3file (user_email);
 
 
@@ -34,9 +34,9 @@ SET REFERENTIAL_INTEGRITY FALSE;
 
 drop table if exists s3file;
 
-drop table if exists MyUser;
+drop table if exists user;
 
 SET REFERENTIAL_INTEGRITY TRUE;
 
-drop sequence if exists MyUser_seq;
+drop sequence if exists user_seq;
 
