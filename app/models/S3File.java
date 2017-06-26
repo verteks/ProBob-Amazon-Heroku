@@ -13,6 +13,7 @@ import javax.persistence.Transient;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.UUID;
 
 @Entity
@@ -27,6 +28,7 @@ public class S3File extends Model {
     private User user;
     private String name;
     private boolean easyAccessFile;
+    private SimpleDateFormat date;
 
     @Transient
     private File file;
@@ -36,10 +38,14 @@ public class S3File extends Model {
     public File getFile() {return file;}
     public User getUser() {return user;}
     public String getBucket() {return bucket;}
-
+    public SimpleDateFormat getDate(){return date;
+    }
     public boolean isEasyAccessFile() {
         return easyAccessFile;
     }
+
+
+    public static Finder<UUID, S3File> find = new Finder<UUID, S3File>(UUID.class, S3File.class);
 
     public void setName(String name) {this.name = name;}
     public void setBucket(String bucket) {this.bucket = bucket;}
@@ -56,6 +62,13 @@ public class S3File extends Model {
 
     private String getActualFileName() {
         return id + "/" + name;
+    }
+    public void superSave() {
+        super.save();
+    }
+
+    public void setDate(SimpleDateFormat date) {
+        this.date = date;
     }
 
     @Override

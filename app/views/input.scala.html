@@ -1,6 +1,6 @@
 @(field: Field, label: String, args: (Symbol,Any)*)
 <div class="@if(field.hasErrors ) { has-error}">
-	<label for="@field.name" >@label</label>
+	<label for="@field.name" class="yoPi">@label</label>
 	<input name="@field.name" id="@field.name"  value="@field.value" @toHtmlArgs(args.toMap) />
 	@if(field.hasErrors ) {
 	<span class="help-block">

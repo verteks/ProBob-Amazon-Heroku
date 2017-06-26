@@ -34,7 +34,7 @@ public class AmazonUpload extends Controller{
 
 
     public static Result index() {
-       return redirect(routes.AmazonUpload.upload());
+       return redirect(routes.Application.index());
    }
 
     public static Result upload() throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException {

@@ -1,21 +1,65 @@
-@(s3Files: List[models.S3File])
+@* @(s3Files: List[models.S3File])   *@
 
 
     @main("Upload") {
-
-    <h1>Upload a file:</h1>
-    
+    <div class="uploadContainer">
+    <h1 class="h1Center">Upload a file</h1>
     @helper.form(action = routes.Application.upload, 'enctype -> "multipart/form-data") {
         <input type="file" name="upload">
-        <input type="submit">
-        easy access
-        <input type="checkbox" name ="easyAccessFile">
+        <p> <h4>easy access <input type="checkbox" name ="easyAccessFile"> </h4></p>
+        <input type="submit" class="btn btn-primary">
     }
-
-    <h1>Uploads:</h1>
+  </div>
+ <div data-bind="uploadViewModel">
+ @*<h1>Uploads:</h1>
     <ul>
     @for(s3file <- s3Files) {
         <li><a href="@s3file.getUrl()">@s3file.getName()</a></li>
     }
     </ul>
-    }
+    *@
+     <div class="uploadsContainer">
+             <h1 class="h1Center">Uploads</h1>
+          <table class="table table-condensed" >
+              <thead>
+                <tr class="tableTopText">
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th></th>
+                </tr>
+              </thead>
+            <tbody data-bind="foreach: files">
+                <tr>
+                    <td> <a data-bind="attr: { href: url}"><p data-bind="text: name"></p></a> </td>
+                    <td>
+                        <a href="#" data-bind="click: $root.changeEasyAccess, attr: { class: easyAccessClass}" style="width: 150px; height: 34px;"><p data-bind = "text: easyAccessText"></p></a>
+                    </td>
+                    <td>
+                      <a href="#" data-bind="click: $root.removeFile"  class="btn btn-danger">Удалить</a>
+                        @*  <a href="#myModal" role="button" class="btn btn-danger" data-toggle="modal">Удалить</a>*@
+                    </td>
+
+                </tr>
+            </tbody>
+          </table>
+     </div>
+   @* <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Внимание !</h4>
+                </div>
+                <div class="modal-body">
+                    Файл будет удален безвозвратно, вы точно хотите удалить его ?
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Отменить</button>
+                    <button class="btn btn-danger" data-bind="click: $root.removeFile" >Удалить</button>
+                </div>
+            </div>
+        </div>
+    </div>*@
+ </div>
+ <script language = "javascript" lang="javascript" src ='@routes.Assets.at("javascripts/app.js")'></script>
+}
