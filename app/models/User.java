@@ -8,6 +8,7 @@ import play.db.ebean.Model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -16,6 +17,7 @@ import java.util.List;
 import java.util.Random;
 
 @Entity
+@Table(name = "MyUser")
 public class User extends Model {
 
     /**

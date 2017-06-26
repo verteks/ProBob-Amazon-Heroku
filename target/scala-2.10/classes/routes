@@ -1,0 +1,33 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET		/login  		controllers.Auth.login()
+GET		/register		controllers.Auth.signup()
+POST	/login			controllers.Auth.auth()
+GET	    /logout			controllers.Auth.logout()
+POST	/register		controllers.Auth.register()
+GET     /profile        controllers.Admin.profile()
+POST    /profile/change controllers.Admin.changePassword()
+GET     /               controllers.Application.index()
+POST    /               controllers.Application.upload()
+GET     /uplode         controllers.AmazonUpload.index()
+GET    /easyAccess    controllers.EasyAccess.search()
+
+
+#API
+GET     /api/uploadddd                  controllers.AmazonUpload.upload()
+GET     /api/uploads                 controllers.AmazonUpload.getInfo()
+#POST    /api/notes                  controllers.Application.saveNoteJson()
+#PUT     /api/notes                  controllers.Application.saveNoteJson()
+#DELETE  /api/notes                  controllers.Application.deleteNoteJson()
+GET     /api/upload                  controllers.Application.filesJson()
+DELETE  /api/files                   controllers.Application.deleteFileJson()
+POST    /api/EA                      controllers.Application.changeEasyAccess()
+
+
+GET     /api/jsRoutes                 controllers.Application.jsRoutes
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
