@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\application.conf,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\evolutions,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\play.plugins,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\routes,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\evolutions\default,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\conf\evolutions\default\1.sql,C:\Users\vshir\Documents\play-2.2.6\ProBob-Amazon-Heroku\target\scala-2.10\classes\evolutions\default\1.sql)[0m
