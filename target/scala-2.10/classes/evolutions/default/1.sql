@@ -15,7 +15,7 @@ create table bob_user (
 create table s3file (
   id                        varchar(40) not null,
   bucket                    varchar(255),
-  user_email                varchar(255),
+  bob_user_email            varchar(255),
   name                      varchar(255),
   easy_access_file          boolean,
   constraint pk_s3file primary key (id))
@@ -23,8 +23,8 @@ create table s3file (
 
 create sequence bob_user_seq;
 
-alter table s3file add constraint fk_s3file_user_1 foreign key (user_email) references bob_user (email) on delete restrict on update restrict;
-create index ix_s3file_user_1 on s3file (user_email);
+alter table s3file add constraint fk_s3file_bobUser_1 foreign key (bob_user_email) references bob_user (email) on delete restrict on update restrict;
+create index ix_s3file_bobUser_1 on s3file (bob_user_email);
 
 
 

@@ -40,7 +40,7 @@ public class Application extends Controller {
             S3File s3File = new S3File();
             s3File.setName(uploadFilePart.getFilename());
             s3File.setFile(uploadFilePart.getFile());
-            s3File.setUser(Auth.currentUser());
+            s3File.setBobUser(Auth.currentUser());
             s3File.setEasyAccessFile(easyAccess);
             SimpleDateFormat date = new SimpleDateFormat();
             s3File.setDate(date);
@@ -101,7 +101,7 @@ public class Application extends Controller {
             if (file == null) {
                 return notFound(errorJson("Wrong file error"));
             }
-            if (! file.getUser().equals(Auth.currentUser()))
+            if (! file.getBobUser().equals(Auth.currentUser()))
             {
                 return errorJsonResult("Wrong file error");
             }
@@ -138,7 +138,7 @@ public class Application extends Controller {
             if (file == null) {
                 return notFound(errorJson("Wrong file error"));
             }
-            if (! file.getUser().equals(Auth.currentUser()))
+            if (! file.getBobUser().equals(Auth.currentUser()))
             {
                 return errorJsonResult("Wrong file error");
             }

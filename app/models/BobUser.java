@@ -25,7 +25,7 @@ public class BobUser extends Model {
     @Email
     private String email;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "bobUser")
     private List<S3File> list;
 
     private String passwordHash;
