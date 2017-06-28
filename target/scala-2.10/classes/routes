@@ -12,7 +12,7 @@ GET     /profile        controllers.Admin.profile()
 POST    /profile/change controllers.Admin.changePassword()
 GET     /               controllers.Application.index()
 POST    /               controllers.Application.upload()
-GET     /uplode         controllers.AmazonUpload.index()
+GET     /upload         controllers.AmazonUpload.index()
 GET    /easyAccess    controllers.EasyAccess.search()
 
 

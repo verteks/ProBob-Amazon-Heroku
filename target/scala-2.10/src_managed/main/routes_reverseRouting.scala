@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/conf/routes
-// @HASH:65265be616a4eed500cd811c14c451e66c069db7
-// @DATE:Wed Jun 28 22:23:21 IRKT 2017
+// @HASH:88fc5959d5ae31b2405d4128836112d249428082
+// @DATE:Wed Jun 28 23:14:57 IRKT 2017
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -188,7 +188,7 @@ def upload(): Call = {
 
 // @LINE:15
 def index(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "uplode")
+   Call("GET", _prefix + { _defaultPrefix } + "upload")
 }
                                                 
     
@@ -461,7 +461,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.AmazonUpload.index",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "uplode"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "upload"})
       }
    """
 )
@@ -651,7 +651,7 @@ def upload(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 
 // @LINE:15
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.AmazonUpload.index(), HandlerDef(this, "controllers.AmazonUpload", "index", Seq(), "GET", """""", _prefix + """uplode""")
+   controllers.AmazonUpload.index(), HandlerDef(this, "controllers.AmazonUpload", "index", Seq(), "GET", """""", _prefix + """upload""")
 )
                       
     

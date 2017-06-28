@@ -43,17 +43,24 @@
                 }
                 @if(Auth.currentUserEmail() != null) {
                     <div class="UserLog">
+                        <a href="@routes.Application.index()">
                         <div class="PersikDiv">
 
                         </div>
+                        </a>
                     <h2>@Auth.currentUserEmail()</h2>
+                    <div class="UserLogIn1 col-md-1" >
                     @helper.form(routes.Auth.logout()) {
                         <button type="submit" class="btn btn-primary">Выход</button>
                     }
+                    </div>
+                    <div class="UserLogIn2 col-md-2" >
                     @helper.form(routes.Admin.profile()) {
                             <button type="submit" class="btn btn-primary">Настройки</button>
                     }
                     </div>
+                    </div>
+
                 }
 
         <div>

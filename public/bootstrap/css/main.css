@@ -54,3 +54,16 @@
     width: 400px;
     background-size: contain;
 }
+.UserLogIn1{
+    /*border: 4px double black; !* Параметры границы *!*/
+    /*background: #33ff38; !* Цвет фона *!*/
+    ;
+    float: right;
+}
+
+.UserLogIn2{
+    /*border: 4px double black; !* Параметры границы *!*/
+    /*background: #ff8746; !* Цвет фона *!*/
+
+    float: right;
+}

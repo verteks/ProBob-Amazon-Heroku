@@ -1,6 +1,6 @@
 // @SOURCE:C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/conf/routes
-// @HASH:65265be616a4eed500cd811c14c451e66c069db7
-// @DATE:Wed Jun 28 22:23:21 IRKT 2017
+// @HASH:88fc5959d5ae31b2405d4128836112d249428082
+// @DATE:Wed Jun 28 23:14:57 IRKT 2017
 
 
 import play.core._
@@ -65,7 +65,7 @@ private[this] lazy val controllers_Application_upload8 = Route("POST", PathPatte
         
 
 // @LINE:15
-private[this] lazy val controllers_AmazonUpload_index9 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("uplode"))))
+private[this] lazy val controllers_AmazonUpload_index9 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("upload"))))
         
 
 // @LINE:16
@@ -99,7 +99,7 @@ private[this] lazy val controllers_Application_jsRoutes16 = Route("GET", PathPat
 // @LINE:33
 private[this] lazy val controllers_Assets_at17 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
         
-def documentation = List(("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Auth.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """register""","""controllers.Auth.signup()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Auth.auth()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout""","""controllers.Auth.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """register""","""controllers.Auth.register()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """profile""","""controllers.Admin.profile()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """profile/change""","""controllers.Admin.changePassword()"""),("""GET""", prefix,"""controllers.Application.index()"""),("""POST""", prefix,"""controllers.Application.upload()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """uplode""","""controllers.AmazonUpload.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """easyAccess""","""controllers.EasyAccess.search()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/uploadddd""","""controllers.AmazonUpload.upload()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/uploads""","""controllers.AmazonUpload.getInfo()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/upload""","""controllers.Application.filesJson()"""),("""DELETE""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/files""","""controllers.Application.deleteFileJson()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/EA""","""controllers.Application.changeEasyAccess()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/jsRoutes""","""controllers.Application.jsRoutes"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Auth.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """register""","""controllers.Auth.signup()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login""","""controllers.Auth.auth()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout""","""controllers.Auth.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """register""","""controllers.Auth.register()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """profile""","""controllers.Admin.profile()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """profile/change""","""controllers.Admin.changePassword()"""),("""GET""", prefix,"""controllers.Application.index()"""),("""POST""", prefix,"""controllers.Application.upload()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """upload""","""controllers.AmazonUpload.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """easyAccess""","""controllers.EasyAccess.search()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/uploadddd""","""controllers.AmazonUpload.upload()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/uploads""","""controllers.AmazonUpload.getInfo()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/upload""","""controllers.Application.filesJson()"""),("""DELETE""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/files""","""controllers.Application.deleteFileJson()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/EA""","""controllers.Application.changeEasyAccess()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/jsRoutes""","""controllers.Application.jsRoutes"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -182,7 +182,7 @@ case controllers_Application_upload8(params) => {
 // @LINE:15
 case controllers_AmazonUpload_index9(params) => {
    call { 
-        invokeHandler(controllers.AmazonUpload.index(), HandlerDef(this, "controllers.AmazonUpload", "index", Nil,"GET", """""", Routes.prefix + """uplode"""))
+        invokeHandler(controllers.AmazonUpload.index(), HandlerDef(this, "controllers.AmazonUpload", "index", Nil,"GET", """""", Routes.prefix + """upload"""))
    }
 }
         
