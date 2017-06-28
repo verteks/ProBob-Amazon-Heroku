@@ -8,7 +8,7 @@ public class EasySearch {
     public String easyAccess;
 
     public String validate() {
-            if ( User.vailableEasy(easyAccess)){
+            if ( BobUser.vailableEasy(easyAccess)){
                 return "it is no easy? try again or do registration and create you own easy access";
             }else{
                 return null;

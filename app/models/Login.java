@@ -36,11 +36,11 @@ public class Login {
     /**
      * Производит валидацию формы.
      *
-     * Подсказка: Воспользоваться методом User.authenticate(email, password)
+     * Подсказка: Воспользоваться методом BobUser.authenticate(email, password)
      *
      * @return null в случае, если валидация успешна. Строку с ошибкой в противном случае.
      */
     public String validate() {
-        return User.authenticate(email,password);
+        return BobUser.authenticate(email,password);
     }
 }

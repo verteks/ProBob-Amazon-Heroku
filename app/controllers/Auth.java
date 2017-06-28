@@ -1,9 +1,9 @@
 package controllers;
 
+import models.BobUser;
 import models.EasySearch;
 import models.Login;
 import models.Register;
-import models.User;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -56,7 +56,7 @@ public class Auth extends Controller {
             return badRequest(register.render(registerForm));
         }else{
             Register user = registerForm.get();
-            User us = new User(user.email,user.password);
+            BobUser us = new BobUser(user.email,user.password);
             us.setEasyAccessHash(user.easyAccess);
             us.save();
             //Установка ключа email в сессии равной email аутентифицированного пользователя.
@@ -72,7 +72,7 @@ public class Auth extends Controller {
         return session("email");
     }
 
-    public static User currentUser(){
-        return User.find.byId(currentUserEmail());
+    public static BobUser currentUser(){
+        return BobUser.find.byId(currentUserEmail());
     }
 }

@@ -1,7 +1,7 @@
 package controllers;
 
+import models.BobUser;
 import models.ChangePassword;
-import models.User;
 import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -32,7 +32,7 @@ public class Admin extends Controller {
             //форма содержит ошибку и будет выдана пользователю обратно. При ошибки валидации покажутся автоматически засчет form-helper-ов
             return badRequest(profile.render(cPForm));
         else {
-            User kk = Auth.currentUser();
+            BobUser kk = Auth.currentUser();
             kk.setPassword(cPForm.get().newPassword);
             kk.save();
             flash("success", "Пароль успешно изменен");

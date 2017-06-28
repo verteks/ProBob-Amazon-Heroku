@@ -25,7 +25,7 @@ public class S3File extends Model {
     private String bucket;
 
     @ManyToOne
-    private User user;
+    private BobUser user;
     private String name;
     private boolean easyAccessFile;
     private SimpleDateFormat date;
@@ -36,7 +36,7 @@ public class S3File extends Model {
     public UUID getId() {return id;}
     public String getName() {return name;}
     public File getFile() {return file;}
-    public User getUser() {return user;}
+    public BobUser getUser() {return user;}
     public String getBucket() {return bucket;}
     public SimpleDateFormat getDate(){return date;
     }
@@ -50,7 +50,7 @@ public class S3File extends Model {
     public void setName(String name) {this.name = name;}
     public void setBucket(String bucket) {this.bucket = bucket;}
     public void setFile(File file) {this.file = file;}
-    public void setUser(User user) {this.user = user;}
+    public void setUser(BobUser user) {this.user = user;}
 
     public void setEasyAccessFile(boolean easyAccessFile) {
         this.easyAccessFile = easyAccessFile;

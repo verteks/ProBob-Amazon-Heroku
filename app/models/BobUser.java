@@ -8,7 +8,6 @@ import play.db.ebean.Model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -17,8 +16,7 @@ import java.util.List;
 import java.util.Random;
 
 @Entity
-@Table(name = "XonamiUser")
-public class User extends Model {
+public class BobUser extends Model {
 
     /**
      * Email - электронная почта пользователя
@@ -36,11 +34,11 @@ public class User extends Model {
     private String easySalt;
 
 
-    public User(String email, String password) {
+    public BobUser(String email, String password) {
         this.email = email;
         setPassword(password);
     }
-    public static Finder<String, User> find = new Finder<String, User>(String.class, User.class);
+    public static Finder<String, BobUser> find = new Finder<String, BobUser>(String.class, BobUser.class);
     public List<S3File> getList() {
         return list;
     }
@@ -93,7 +91,7 @@ public class User extends Model {
 
     public static String authenticate(String email, String password) {
         if (email.isEmpty() || password.isEmpty()){return "Поля не заполнены";}
-        User us = User.find.byId(email);
+        BobUser us = BobUser.find.byId(email);
         if (us == null){
             return "Пользователь с данным email не зарегистрирован";
         }else {
@@ -106,7 +104,7 @@ public class User extends Model {
     }
 
     public static boolean vailable(String email) {
-        User us = User.find.byId(email);
+        BobUser us = BobUser.find.byId(email);
         if (us != null){
             return false;
         }else {
@@ -114,7 +112,7 @@ public class User extends Model {
         }
     }
     public static boolean vailableEasy(String easy){
-        List<User> us = User.find.where().like("easyAccessHash",getEasyAccessHash(easy)).findList();
+        List<BobUser> us = BobUser.find.where().like("easyAccessHash",getEasyAccessHash(easy)).findList();
         if (us.size() !=0){
             return false;
         }else {

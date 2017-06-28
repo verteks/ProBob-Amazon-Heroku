@@ -18,18 +18,18 @@ public class Register{
 
     public String validate() {
         if (easyAccess != ""){
-            if ( ! User.vailableEasy(easyAccess)){
+            if ( ! BobUser.vailableEasy(easyAccess)){
                 return "too easy to be available, so please enter another easy access link";
             }
 
         }
-        if (User.vailable(email)){
+        if (BobUser.vailable(email)){
             return null;
-            //return easyAccess+User.vailableEasy(easyAccess);
+            //return easyAccess+BobUser.vailableEasy(easyAccess);
         }else{
             return "такой email занят";
 
-            //return easyAccess+User.vailableEasy(easyAccess);
+            //return easyAccess+BobUser.vailableEasy(easyAccess);
         }
     }
 }

@@ -3,6 +3,15 @@
 
 # --- !Ups
 
+create table bob_user (
+  email                     varchar(255) not null,
+  password_hash             varchar(255),
+  salt                      varchar(255),
+  easy_access_hash          varchar(255),
+  easy_salt                 varchar(255),
+  constraint pk_bob_user primary key (email))
+;
+
 create table s3file (
   id                        varchar(40) not null,
   bucket                    varchar(255),
@@ -12,18 +21,9 @@ create table s3file (
   constraint pk_s3file primary key (id))
 ;
 
-create table XonamiUser (
-  email                     varchar(255) not null,
-  password_hash             varchar(255),
-  salt                      varchar(255),
-  easy_access_hash          varchar(255),
-  easy_salt                 varchar(255),
-  constraint pk_XonamiUser primary key (email))
-;
+create sequence bob_user_seq;
 
-create sequence XonamiUser_seq;
-
-alter table s3file add constraint fk_s3file_user_1 foreign key (user_email) references XonamiUser (email) on delete restrict on update restrict;
+alter table s3file add constraint fk_s3file_user_1 foreign key (user_email) references bob_user (email) on delete restrict on update restrict;
 create index ix_s3file_user_1 on s3file (user_email);
 
 
@@ -32,11 +32,11 @@ create index ix_s3file_user_1 on s3file (user_email);
 
 SET REFERENTIAL_INTEGRITY FALSE;
 
-drop table if exists s3file;
+drop table if exists bob_user;
 
-drop table if exists XonamiUser;
+drop table if exists s3file;
 
 SET REFERENTIAL_INTEGRITY TRUE;
 
-drop sequence if exists XonamiUser_seq;
+drop sequence if exists bob_user_seq;
 
