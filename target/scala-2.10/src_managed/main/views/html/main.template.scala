@@ -42,7 +42,7 @@ Seq[Any](format.raw/*1.32*/("""
         <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*14.54*/routes/*14.60*/.Assets.at("stylesheets/main.css"))),format.raw/*14.94*/("""">
         <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*15.54*/routes/*15.60*/.Assets.at("bootstrap/css/bootstrap.css"))),format.raw/*15.101*/("""">
         <link rel="stylesheet" media="screen" href=""""),_display_(Seq[Any](/*16.54*/routes/*16.60*/.Assets.at("bootstrap/css/main.css"))),format.raw/*16.96*/("""">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(Seq[Any](/*17.59*/routes/*17.65*/.Assets.at("images/favicon.png"))),format.raw/*17.97*/("""">
+        <link rel="shortcut icon" type="image/x-icon" href=""""),_display_(Seq[Any](/*17.62*/routes/*17.68*/.Assets.at("images/favicon.ico"))),format.raw/*17.100*/("""">
         <script src=""""),_display_(Seq[Any](/*18.23*/routes/*18.29*/.Assets.at("javascripts/jquery-1.9.0.min.js"))),format.raw/*18.74*/("""" type="text/javascript"></script>
         <script src=""""),_display_(Seq[Any](/*19.23*/routes/*19.29*/.Assets.at("bootstrap/js/bootstrap.js"))),format.raw/*19.68*/("""" type="text/javascript"></script>
         <script src=""""),_display_(Seq[Any](/*20.23*/routes/*20.29*/.Assets.at("javascripts/knockout.js"))),format.raw/*20.66*/("""" type="text/javascript"></script>
@@ -70,29 +70,31 @@ Seq[Any](format.raw/*1.32*/("""
 
                 """)))})),format.raw/*43.18*/("""
                 """),_display_(Seq[Any](/*44.18*/if(Auth.currentUserEmail() != null)/*44.53*/ {_display_(Seq[Any](format.raw/*44.55*/("""
+
+
                     <div class="UserLog">
-                        <a href=""""),_display_(Seq[Any](/*46.35*/routes/*46.41*/.Application.index())),format.raw/*46.61*/("""">
+                        <a href=""""),_display_(Seq[Any](/*48.35*/routes/*48.41*/.Application.index())),format.raw/*48.61*/("""">
                         <div class="PersikDiv">
 
                         </div>
                         </a>
-                    <h2>"""),_display_(Seq[Any](/*51.26*/Auth/*51.30*/.currentUserEmail())),format.raw/*51.49*/("""</h2>
+                    <h2>"""),_display_(Seq[Any](/*53.26*/Auth/*53.30*/.currentUserEmail())),format.raw/*53.49*/("""</h2>
                     <div class="UserLogIn1 col-md-1" >
-                    """),_display_(Seq[Any](/*53.22*/helper/*53.28*/.form(routes.Auth.logout())/*53.55*/ {_display_(Seq[Any](format.raw/*53.57*/("""
+                    """),_display_(Seq[Any](/*55.22*/helper/*55.28*/.form(routes.Auth.logout())/*55.55*/ {_display_(Seq[Any](format.raw/*55.57*/("""
                         <button type="submit" class="btn btn-primary">Выход</button>
-                    """)))})),format.raw/*55.22*/("""
+                    """)))})),format.raw/*57.22*/("""
                     </div>
                     <div class="UserLogIn2 col-md-2" >
-                    """),_display_(Seq[Any](/*58.22*/helper/*58.28*/.form(routes.Admin.profile())/*58.57*/ {_display_(Seq[Any](format.raw/*58.59*/("""
+                    """),_display_(Seq[Any](/*60.22*/helper/*60.28*/.form(routes.Admin.profile())/*60.57*/ {_display_(Seq[Any](format.raw/*60.59*/("""
                             <button type="submit" class="btn btn-primary">Настройки</button>
-                    """)))})),format.raw/*60.22*/("""
+                    """)))})),format.raw/*62.22*/("""
                     </div>
                     </div>
 
-                """)))})),format.raw/*64.18*/("""
+                """)))})),format.raw/*66.18*/("""
 
         <div>
-            """),_display_(Seq[Any](/*67.14*/content)),format.raw/*67.21*/("""
+            """),_display_(Seq[Any](/*69.14*/content)),format.raw/*69.21*/("""
         </div>
         </div>
     </body>
@@ -109,11 +111,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Jun 28 23:25:07 IRKT 2017
+                    DATE: Thu Jun 29 00:03:40 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/main.scala.html
-                    HASH: fb89bfd46fd5149c00b35f36d67cfb0987c1b55f
-                    MATRIX: 778->1|902->31|1244->338|1270->343|1591->628|1606->634|1662->668|1755->725|1770->731|1834->772|1927->829|1942->835|2000->871|2098->933|2113->939|2167->971|2229->997|2244->1003|2311->1048|2405->1106|2420->1112|2481->1151|2575->1209|2590->1215|2649->1252|2766->1333|2781->1339|2824->1360|3016->1516|3060->1551|3100->1553|3274->1691|3289->1697|3324->1723|3364->1725|3527->1856|3678->1971|3693->1977|3729->2004|3769->2006|3939->2144|4052->2225|4107->2244|4151->2279|4191->2281|4306->2360|4321->2366|4363->2386|4541->2528|4554->2532|4595->2551|4715->2635|4730->2641|4766->2668|4806->2670|4947->2779|5090->2886|5105->2892|5143->2921|5183->2923|5332->3040|5441->3117|5509->3149|5538->3156
-                    LINES: 26->1|29->1|37->9|37->9|42->14|42->14|42->14|43->15|43->15|43->15|44->16|44->16|44->16|45->17|45->17|45->17|46->18|46->18|46->18|47->19|47->19|47->19|48->20|48->20|48->20|49->21|49->21|49->21|57->29|57->29|57->29|60->32|60->32|60->32|60->32|62->34|65->37|65->37|65->37|65->37|67->39|71->43|72->44|72->44|72->44|74->46|74->46|74->46|79->51|79->51|79->51|81->53|81->53|81->53|81->53|83->55|86->58|86->58|86->58|86->58|88->60|92->64|95->67|95->67
+                    HASH: 8e38c805bc52a041abdd09db238606c7e28e10b9
+                    MATRIX: 778->1|902->31|1244->338|1270->343|1591->628|1606->634|1662->668|1755->725|1770->731|1834->772|1927->829|1942->835|2000->871|2101->936|2116->942|2171->974|2233->1000|2248->1006|2315->1051|2409->1109|2424->1115|2485->1154|2579->1212|2594->1218|2653->1255|2770->1336|2785->1342|2828->1363|3020->1519|3064->1554|3104->1556|3278->1694|3293->1700|3328->1726|3368->1728|3531->1859|3682->1974|3697->1980|3733->2007|3773->2009|3943->2147|4056->2228|4111->2247|4155->2282|4195->2284|4314->2367|4329->2373|4371->2393|4549->2535|4562->2539|4603->2558|4723->2642|4738->2648|4774->2675|4814->2677|4955->2786|5098->2893|5113->2899|5151->2928|5191->2930|5340->3047|5449->3124|5517->3156|5546->3163
+                    LINES: 26->1|29->1|37->9|37->9|42->14|42->14|42->14|43->15|43->15|43->15|44->16|44->16|44->16|45->17|45->17|45->17|46->18|46->18|46->18|47->19|47->19|47->19|48->20|48->20|48->20|49->21|49->21|49->21|57->29|57->29|57->29|60->32|60->32|60->32|60->32|62->34|65->37|65->37|65->37|65->37|67->39|71->43|72->44|72->44|72->44|76->48|76->48|76->48|81->53|81->53|81->53|83->55|83->55|83->55|83->55|85->57|88->60|88->60|88->60|88->60|90->62|94->66|97->69|97->69
                     -- GENERATED --
                 */
             

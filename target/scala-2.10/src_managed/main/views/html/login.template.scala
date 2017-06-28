@@ -40,23 +40,27 @@ Seq[Any](format.raw/*1.60*/("""
                 """)))})),format.raw/*12.18*/("""
             </div>
         """)))})),format.raw/*14.10*/("""
-        """),_display_(Seq[Any](/*15.10*/helper/*15.16*/.form(routes.Auth.auth())/*15.41*/ {_display_(Seq[Any](format.raw/*15.43*/("""
+    <div class="col-md-5">
+        """),_display_(Seq[Any](/*16.10*/helper/*16.16*/.form(routes.Auth.auth())/*16.41*/ {_display_(Seq[Any](format.raw/*16.43*/("""
             <h2 class="form-signin-heading">Вход</h2>
-            """),_display_(Seq[Any](/*17.14*/input(loginForm("email"), "Email", 'type -> "text"))),format.raw/*17.65*/("""
-            """),_display_(Seq[Any](/*18.14*/input(loginForm("password"), "Пароль", 'type -> "password"))),format.raw/*18.73*/("""
+            """),_display_(Seq[Any](/*18.14*/input(loginForm("email"), "Email", 'type -> "text"))),format.raw/*18.65*/("""
+            """),_display_(Seq[Any](/*19.14*/input(loginForm("password"), "Пароль", 'type -> "password"))),format.raw/*19.73*/("""
 
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Войти</button>
 
             </div>
-        """)))})),format.raw/*24.10*/("""
-         """),_display_(Seq[Any](/*25.11*/helper/*25.17*/.form(routes.EasyAccess.search(), 'method -> "GET")/*25.68*/ {_display_(Seq[Any](format.raw/*25.70*/("""
+        """)))})),format.raw/*25.10*/("""
+         """),_display_(Seq[Any](/*26.11*/helper/*26.17*/.form(routes.EasyAccess.search(), 'method -> "GET")/*26.68*/ {_display_(Seq[Any](format.raw/*26.70*/("""
             <h2 class="form-signin-heading">Easy Access</h2>
             <input type="text" name="easySearch">
             <button type="submit" class="btn btn-primary">Go Easy</button>
 
-         """)))})),format.raw/*30.11*/("""
-    """)))})),format.raw/*31.6*/("""
+         """)))})),format.raw/*31.11*/("""
+    </div>
+    <div class="Persik col-md-4"><img src="https://s3.amazonaws.com/heroku-bob-saver-from-bigbob-to-littlebob-with-fatbob-v.02/b885a388-9c34-4e94-909a-7cd1d1196c61/PersikBoooolka.png" heigh="200" width="200">
+    </div>
+    """)))})),format.raw/*35.6*/("""
 """))}
     }
     
@@ -69,11 +73,11 @@ Seq[Any](format.raw/*1.60*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Jun 28 23:20:19 IRKT 2017
+                    DATE: Thu Jun 29 00:05:58 IRKT 2017
                     SOURCE: C:/Users/vshir/Documents/play-2.2.6/ProBob-Amazon-Heroku/app/views/login.scala.html
-                    HASH: c5b9676ddf53a1e02171a2be1e63185003d4f626
-                    MATRIX: 796->1|948->59|989->66|1009->78|1048->80|1094->91|1125->114|1164->116|1325->242|1364->273|1403->275|1461->298|1513->335|1552->337|1614->364|1646->381|1685->383|1754->417|1765->420|1807->441|1870->472|1925->495|1976->514|2039->545|2086->556|2101->562|2135->587|2175->589|2281->659|2354->710|2405->725|2486->784|2669->935|2717->947|2732->953|2792->1004|2832->1006|3067->1209|3105->1216
-                    LINES: 26->1|29->1|30->2|30->2|30->2|31->3|31->3|31->3|34->6|34->6|34->6|35->7|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|39->11|40->12|42->14|43->15|43->15|43->15|43->15|45->17|45->17|46->18|46->18|52->24|53->25|53->25|53->25|53->25|58->30|59->31
+                    HASH: f7cb944b34a836cd230d2ca78f5a4a57a03a8ac7
+                    MATRIX: 796->1|948->59|989->66|1009->78|1048->80|1094->91|1125->114|1164->116|1325->242|1364->273|1403->275|1461->298|1513->335|1552->337|1614->364|1646->381|1685->383|1754->417|1765->420|1807->441|1870->472|1925->495|1976->514|2039->545|2114->584|2129->590|2163->615|2203->617|2309->687|2382->738|2433->753|2514->812|2697->963|2745->975|2760->981|2820->1032|2860->1034|3095->1237|3367->1478
+                    LINES: 26->1|29->1|30->2|30->2|30->2|31->3|31->3|31->3|34->6|34->6|34->6|35->7|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|39->11|40->12|42->14|44->16|44->16|44->16|44->16|46->18|46->18|47->19|47->19|53->25|54->26|54->26|54->26|54->26|59->31|63->35
                     -- GENERATED --
                 */
             
